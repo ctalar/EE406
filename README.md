@@ -23,9 +23,9 @@ In Unix the Windows user's folder is:
 7. All user data is persistently mounted in the directory pointed to by the environment variable `DESIGNS` <br>
 the default is `$HOME/eda/designs`   
 
-### Additional Softwares to install on your computer
+### Additional useful software to install on your computer
 1. Matlab (or Octave)
-2. Anaconda
+2. Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
 3. PyLTSpice version 3.1<br>
 `pip install PyLTSpice==3.1`<br>
 4. [HSPICE/ngspice Toolbox](https://web02.gonzaga.edu/faculty/talarico/vlsi/matlab.html) by M. Perrott
