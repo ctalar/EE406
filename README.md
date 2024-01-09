@@ -1,4 +1,5 @@
 # EE406
+### Required EDA software
 1. Open the PowerShell and install WSL<br>
 `wsl --install -d Ubuntu-22.04`<br>
 You will be prompted to create a UNIX username and password.<br>
@@ -24,8 +25,8 @@ In Unix the Windows user's folder is:
 the default is `$HOME/eda/designs`   
 
 ### Additional useful software to install on your computer
-1. Matlab (or Octave)
+1. Matlab (or Octave) <-- **required**
 2. Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
 3. PyLTSpice version 3.1<br>
 `pip install PyLTSpice==3.1`<br>
-4. [HSPICE/ngspice Toolbox](https://web02.gonzaga.edu/faculty/talarico/vlsi/matlab.html) by M. Perrott
+4. [HSPICE/ngspice Toolbox](https://web02.gonzaga.edu/faculty/talarico/vlsi/matlab.html) by M. Perrott <-- **required**
