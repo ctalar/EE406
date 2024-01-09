@@ -7,9 +7,9 @@ This UNIX username and password have no relationship to your Windows username an
 To avoid any confusion use a different username
 2. [Install Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)<br>
 3. Start Ubuntu (either by typing `wsl` into the Windows's PowerShell or selecting the Ubuntu app in the Window's Start Menu) <br>
-Your unix user's home directory is located at:<br>
+Your unix user's home directory is:<br>
 `/home/<unix username>`<br>
-Your Windows user's home directory is located at:<br>
+Your Windows user's home directory is:<br>
 `/mnt/c/Users/<windows username>`
 5. clone the [iic-osic-tools](https://github.com/iic-jku/IIC-OSIC-TOOLS) container onto your computer (for example into your Windows user's folder)<br>
 `git clone --depth=1 https://github.com/iic-jku/iic-osic-tools.git`<br>
