@@ -17,13 +17,15 @@ Your Windows user's home directory is:<br>
 Windows user's folder: `C:\Users\claudio`<br>
 In Unix, the Windows user's folder is accessible as:
 `/mnt/c/Users/claudio`<br>
-5. Start Docker
+5. Start Docker Desktop
 6. Browse to the iic-osic-tools directory<br>
 `cd /mnt/c/Users/claudio/iic-osic-tools`<be>
-7. Start the container using the script `./start_x.sh`
-NOTE: in the script all user data is persistently mounted in the directory pointed to by the environment variable `DESIGNS` <br>
-The default is `$HOME/eda/designs`
-To change where the the user data is mounted edit the ./start_x.sh script and modify the definition of the variable of the `DESIGN`
+7. Start the container using the script `./start_x.sh`<br>
+**NOTE:** in the script, all user data is persistently mounted in the directory pointed to by the environment variable `DESIGNS` <br>
+The default is `$HOME/eda/designs`<br>
+To change where the user data is mounted edit the `./start_x.sh` script and modify the definition of the variable `DESIGNS`<br>
+*Example*<br>
+`DESIGNS="/mnt/g/My Drive/eda/designs"`
 
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
