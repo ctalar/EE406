@@ -26,6 +26,23 @@ The default is `$HOME/eda/designs`<br>
 To change where the user data is mounted edit the `./start_x.sh` script and modify the definition of the variable `DESIGNS`<br>
 *Example*<br>
 `DESIGNS="/mnt/g/My Drive/eda/designs"`
+8. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
+This is your working directory where all your design data goes.
+9. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
+The available PDKs are:<br>
+```
+gf180mcuC
+sg13g2
+sky130A
+```
+If you want to switch to the IHP PDK type:<br>
+`iic-pdk sg13g2`<br>
+To skip typing this command every time, create a `.designinit` text file in your design directory with the following lines:
+   ```
+   PDK_ROOT=/foss/pdks
+   PDK=sg13g2
+   PDKPATH=/foss/pdks/sg13g2
+   ```
 
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
