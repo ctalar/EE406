@@ -30,11 +30,9 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
 This is your working directory where all your design data goes.
 9. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
 The available PDKs are:<br>
-```
-gf180mcuC
-sg13g2
-sky130A
-```
+`gf180mcuC`<br>
+`sg13g2`<br>
+`sky130A`<br>
 If you want to switch to the IHP PDK type:<br>
 `iic-pdk sg13g2`<br>
 To skip typing this command every time, create a `.designinit` text file in your design directory with the following lines:
