@@ -26,9 +26,23 @@ The default is `$HOME/eda/designs`<br>
 To change where the user data is mounted edit the `./start_x.sh` script and modify the definition of the variable `DESIGNS`<br>
 *Example*<br>
 `DESIGNS="/mnt/g/My Drive/eda/designs"`
-8. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
+8. In the unfortunate event that .Xauthority does not exist in the user home directory, it will show the below error:<br>
+   ```
+   xauth
+   xauth:  file /root/.Xauthority does not exist
+   Using authority file /root/.Xauthority
+   ```
+   Below are the steps to manually create .Xauthority under the user home directory:<br>
+   ```
+   touch ~/.Xauthority
+   # Generate the magic cookie with 128 bit hex encoding
+   xauth add ${HOST}:0 . $(xxd -l 16 -p /dev/urandom)
+   # Verify the result and it shouldn't show any error
+   xauth list
+   ```
+9. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
 This is your working directory where all your design data goes.
-9. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
+11. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
 The available PDKs are:<br>
 `gf180mcuC`<br>
 `sg13g2`<br>
