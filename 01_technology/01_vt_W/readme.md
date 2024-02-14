@@ -1,4 +1,4 @@
-### VTH vs. W for sg13_lv_nmos
+### $V_{TH}$ vs. W for sg13_lv_nmos
 
 <p align="center">
    <img src="./img/vt_W_n.png" width="800" />
