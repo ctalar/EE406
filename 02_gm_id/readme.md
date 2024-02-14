@@ -16,7 +16,7 @@ The following setup is provided courtesy of B. Murmann
 </p>
 
 ### Steps to generate and use the LUTs (.mat files)
-- Run the NGspice simulations (techsweep_n.spice and techsweep_p.spice)
+- Run the NGspice simulations corresponding to the Xschem's setup (`techsweep_n.spice` and `techsweep_p.spice`)
 - Read the NGspice output data (txt) into Matlab scripts and save each parameter set (NMOS, PMOS) in mat file format<br>
   (i.e. run `save_as_mat_n.m` and `save_as_mat_p.m`) 
 - Use the look_up and the look_upVGS functions to read the mat file data
