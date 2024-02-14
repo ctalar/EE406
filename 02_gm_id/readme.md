@@ -1,4 +1,5 @@
-## ngspice simulations to generate the LUTs
+## NGspice simulations to generate the LUTs
+
 ### techsweep_n.sch
 
 <p align="center">
