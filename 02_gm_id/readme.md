@@ -1,3 +1,5 @@
+g_${m}$/I${_D}$ LUTs
+
 ## NGspice simulations to generate the LUTs
 
 ### techsweep_n.sch
