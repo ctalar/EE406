@@ -1,4 +1,6 @@
-g_${m}$/I${_D}$ LUTs
+## $g_{m} / I{_D}$ LUTs
+
+To learn more about the $g_{m} / I{_D}$ see [B. Murmann's textbook on gm-ID-design](https://github.com/bmurmann/Book-on-gm-ID-design)
 
 ### Xschem's setup to generate the LUTs
 
