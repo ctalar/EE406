@@ -1,7 +1,7 @@
 ### VTH vs. W for sg13_lv_nmos
 
 <p align="center">
-   <img src="./img/vt_vs_W.png" width="800" />
+   <img src="./img/vt_vs_W_n.png" width="800" />
 </p>
 <p align="center">
    <img src="./img/VT_vs_W.svg" width="800" />
