@@ -6,5 +6,5 @@ The examples are "adapted" to use the [IHP sg13g2 open-source PDK](https://githu
 
 | Example  | Link  | Comments  |
 |---|---|---|
-| 3.1 pp. 67-69	| [EX. 01](./examples/01_example.md) | sizing for given L and $g_{m}/I_{D}$  |  
+| 3.1 pp. 67-69	| [01](./examples/01_example.md) | sizing for given L and $g_{m}/I_{D}$  |  
 | 3.2 pp. 70-73  |  | sizing at constant $g_{m}/I_{D}$ |
