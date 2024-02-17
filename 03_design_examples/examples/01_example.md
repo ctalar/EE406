@@ -258,3 +258,5 @@ gds = 3.7570e-04 (S)<br>
 avo=gm/gds = 16.72 (V/V)<br>
 
 #### Comparing the design and the simulation
+
+$Error = \dfrac{T-E}{T}$
