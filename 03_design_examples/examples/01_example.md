@@ -264,9 +264,10 @@ fu = 0.9594 (GHz)<br>
 </p>
 
 #### Comparing the design and the simulation
-
-\% Error = $\dfrac{T-E}{T}$ $\times 100$
-<br><br>
+<p align="left">
+% Error = $\dfrac{T-E}{T}$ $\times 100$
+</p>
+<br>
 % Error on $V_{DS}$ : 0.5%<br>
 % Error on $g_{m}$ : 0.05%<br>
 % Error on $g_{ds}$ : -0.35<br>
