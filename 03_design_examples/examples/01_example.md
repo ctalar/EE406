@@ -163,7 +163,9 @@ Fig. ($g_{m}/I_{D}$, $A_{intr}$) pairs for various L
 
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_1.sch)
 <p align="center">
-   <img src="./img/IGS_ex3_1_sch.png" width="800" >
+   <img src="./img/IGS_ex3_1_sch.png" width="1000" >
 </p>
 
+#### IMPORTANT NOTE:
+**sss**
 #### matlab's script to post-process the simulation results (igs_ex3_1_sim.m)
