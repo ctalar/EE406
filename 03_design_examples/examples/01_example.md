@@ -257,6 +257,21 @@ gm/ID = 15.00 (S/A)<br>
 gds = 3.7570e-04 (S)<br>
 avo=gm/gds = 16.72 (V/V)<br>
 
+<p align="center">
+   <img src="./img/IGS_ex3_1_sim.png" width="800" >
+</p>
+
 #### Comparing the design and the simulation
 
-$Error = \dfrac{T-E}{T}$
+\% Error = $\dfrac{T-E}{T}$ $\times 100$
+<br><br>
+% Error on $V_{DS}$ : 0.5%<br>
+% Error on $g_{m}$ : 0.05%<br>
+% Error on $g_{ds}$ : -0.35<br>
+% Error on $A_{Vo}$ : 0.24%<br>
+% Error on $f_{u}$ :  <br>
+
+*The design using the LUTs is right on target!*
+<p align="center">
+   <img src="./img/target.jpg" width="400" >
+</p
