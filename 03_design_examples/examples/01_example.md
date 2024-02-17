@@ -147,3 +147,7 @@ gds = 3.7664e-04 (S)<br>
 VA = 1.1121 (V)<br>
 fT = 9.7496e+09 (Hz)<br>
 FO = fT/fu = 9.75<br>
+
+<p align="center">
+   <img src="./img/IGS_ex3_1_a.png" width="800" />
+</p>
