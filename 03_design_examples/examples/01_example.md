@@ -244,6 +244,7 @@ fprintf('gm = %.4e (S)\n',gm)
 fprintf('gm/ID = %.2f (S/A)\n',gm_id);
 fprintf('gds = %.4e (S)\n',gds);
 fprintf('avo=gm/gds = %.2f (V/V)\n',avo);
+fprintf('fu = %.4f (GHz)\n',fu*1e-9);
 
 ```
 
@@ -256,6 +257,7 @@ gm = 6.2831e-03 (S)<br>
 gm/ID = 15.00 (S/A)<br>
 gds = 3.7570e-04 (S)<br>
 avo=gm/gds = 16.72 (V/V)<br>
+fu = 0.9594 (GHz)<br>
 
 <p align="center">
    <img src="./img/IGS_ex3_1_sim_a.png" width="800" >
