@@ -44,18 +44,23 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
 9. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
 This is your working directory where all your design data goes.
 10. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
-The available PDKs are:<br>
-`gf180mcuC`<br>
-`sg13g2`<br>
-`sky130A`<br>
-If you want to switch to the IHP PDK type:<br>
-`iic-pdk sg13g2`<br>
-To skip typing this command every time, create a `.designinit` text file in your design directory with the following lines:<br>
-```
-PDK_ROOT=/foss/pdks
-PDK=sg13g2
-PDKPATH=/foss/pdks/sg13g2
-```
+    The available PDKs are:<br>
+    ```
+    gf180mcuC
+    sg13g2
+    sky130A
+    ```
+    If you want to switch to the IHP PDK type:<br>
+    ```
+    iic-pdk sg13g2
+    ```
+    To skip typing this command every time, create a `.designinit` text file in your design directory with the following lines:
+    ```
+    PDK_ROOT=/foss/pdks
+    PDK=sg13g2
+    PDKPATH=/foss/pdks/sg13g2
+    ```
+    For more information about the sg13g2 technology lookup the [IHP github](https://github.com/IHP-GmbH/IHP-Open-PDK)
 
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
