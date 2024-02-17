@@ -274,7 +274,7 @@ fu = 0.9594 (GHz)<br>
 % Error on $a_{vo}$ : 0.24%<br>
 % Error on $f_{u}$ :  -4.23%<br>
 
-*The design using the LUTs is right on target!*
+<br>*The design using the LUTs is right on target!*
 <p align="left">
    <img src="./img/target.jpg" width="100" >
 </p
