@@ -1,6 +1,6 @@
 ## Intrinsic gain stage (IGS): sizing for given L and $g_{m}/I_{D}$  
 Size the IGS so that $f_{u}$=1 GHz when $C_{L}$=1 pF. <br> 
-Assume L=130 m and $g_{m}/I_{D}$=15 S/A, $V_{DS}$=0.6 V and $V_{SB}$=0 V.
+Assume L=130 μm and $g_{m}/I_{D}$=15 S/A, $V_{DS}$=0.6 V and $V_{SB}$=0 V.
 
 #### matlab's design script (igs_ex3_1.m)
 ```
@@ -170,7 +170,7 @@ Fig. ($g_{m}/I_{D}$, $A_{intr}$) pairs for various L
 The valid range of the models provided for the transistors sg13_lv_nmos and sg13_lv_pmos are:<br>
 L = (0.13 - 10) μm<br>
 W = (0.15 - 10) μm<br>
-If the transistor's width required is above 10μm make sure to use multiple fingers.
+If the required transistor's width is above 10μm make sure to use multiple fingers.
 
 #### matlab's script to post-process the simulation results (igs_ex3_1_sim.m)
 ```
@@ -258,7 +258,7 @@ gds = 3.7570e-04 (S)<br>
 avo=gm/gds = 16.72 (V/V)<br>
 
 <p align="center">
-   <img src="./img/IGS_ex3_1_sim.png" width="800" >
+   <img src="./img/IGS_ex3_1_sim_a.png" width="800" >
 </p>
 
 #### Comparing the design and the simulation
@@ -269,9 +269,9 @@ avo=gm/gds = 16.72 (V/V)<br>
 % Error on $g_{m}$ : 0.05%<br>
 % Error on $g_{ds}$ : -0.35<br>
 % Error on $A_{Vo}$ : 0.24%<br>
-% Error on $f_{u}$ :  <br>
+% Error on $f_{u}$ :  -4.23%<br>
 
 *The design using the LUTs is right on target!*
-<p align="center">
-   <img src="./img/target.jpg" width="400" >
+<p align="left">
+   <img src="./img/target.jpg" width="100" >
 </p
