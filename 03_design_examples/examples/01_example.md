@@ -160,3 +160,10 @@ Fig. Transit frequency $f_{T}$ and intrinsic gain $A_{intr}$ versus $g_{m}/I_{D}
 <p align="center">
 Fig. ($g_{m}/I_{D}$, $A_{intr}$) pairs for various L
 </p>
+
+#### Xschem/NGspice simulation setup to verify the design (igs_ex3_1.sch)
+<p align="center">
+   <img src="./img/IGS_ex3_1_sch.png" width="800" >
+</p>
+
+#### matlab's script to post-process the simulation results (igs_ex3_1_sim.m)
