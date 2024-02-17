@@ -128,3 +128,22 @@ text(7,55,'\leftarrow','fontsize', 20)
 text(20,55,'\rightarrow','fontsize', 20,'Color',"blue")
 ```
 
+------ Specs ------<br>
+VDS = 0.60 (V)<br>
+VSB = 0.00 (V)<br>
+CL = 1.00 (pF)<br>
+fu = 1.00e+09 (Hz)<br>
+L = 0.13 (um)<br>
+gm/id = 1.50e+01 (S/A)<br>
+
+------ Results ------<br>
+VGS = 0.4792 (V)<br>
+ID = 418.8790 (uA)<br>
+W = 69.40 (um)<br>
+gm = 6.28e-03 (S)<br>
+gds = 3.77e-04 (S)<br>
+avo = gm/gds = 16.68 (V/V)<br>
+gds = 3.7664e-04 (S)<br>
+VA = 1.1121 (V)<br>
+fT = 9.7496e+09 (Hz)<br>
+FO = fT/fu = 9.75<br>
