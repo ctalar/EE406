@@ -1,4 +1,4 @@
-## Intrinsic gain stage (IGS): sizing for L and $g_{m}/I_{D}$  
+## Intrinsic gain stage (IGS): sizing for given L and $g_{m}/I_{D}$  
 Size the IGS so that $f_{u}$=1 GHz when $C_{L}$=1 pF. <br> 
 Assume L=130 m and $g_{m}/I_{D}$=15 S/A, $V_{DS}$=0.6 V and $V_{SB}$=0 V.
 
