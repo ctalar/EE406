@@ -149,7 +149,14 @@ fT = 9.7496e+09 (Hz)<br>
 FO = fT/fu = 9.75<br>
 
 <p align="center">
-   <img src="./img/IGS_ex3_1_a.png" width="800" />
+   <img src="./img/IGS_ex3_1_a.png" width="800" >
 </p>
-
-Fig. Transit frequency $f_{T}$ and intrinsic gain $A_{intr}$ versus $g_{m}/I_{D}$ for various L 
+<p align="center">
+Fig. Transit frequency $f_{T}$ and intrinsic gain $A_{intr}$ versus $g_{m}/I_{D}$ for various L
+</p>
+<p align="center">
+   <img src="./img/IGS_ex3_1_b.png" width="800" >
+</p>
+<p align="center">
+Fig. ($g_{m}/I_{D}$, $A_{intr}$) pairs for various L
+</p>
