@@ -267,12 +267,12 @@ fu = 0.9594 (GHz)<br>
 <p align="left">
 % Error = $\dfrac{T-E}{T}$ $\times 100$
 </p>
-<br>
-% Error on $V_{DS}$ : 0.5%<br>
-% Error on $g_{m}$ : 0.05%<br>
-% Error on $g_{ds}$ : -0.35<br>
-% Error on $a_{vo}$ : 0.24%<br>
-% Error on $f_{u}$ :  -4.23%<br>
+
+% Error on $V_{DS}$ : 0.5% <br>
+% Error on $g_{m}$ : 0.05% <br>
+% Error on $g_{ds}$ : -0.35 <br>
+% Error on $a_{vo}$ : 0.24% <br>
+% Error on $f_{u}$ :  -4.23% <br>
 
 <br>*The design using the LUTs is right on target!*
 <p align="left">
