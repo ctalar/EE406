@@ -226,3 +226,14 @@ fprintf('gds = %.4e (S)\n',gds);
 fprintf('avo=gm/gds = %.2f (V/V)\n',avo);
 fprintf('fu = %.4f (GHz)\n',fu*1e-9);
 ```
+
+ID = 4.1880e-05 (A) <br>
+VGS = 0.3233 (V) <br>
+VTH = 0.2445 (V) <br>
+VDS = 0.5829 (V) <br>
+VDSAT = 0.1349 (V) <br>
+gm = 6.2105e-04 (S) <br>
+gm/ID = 14.83 (S/A) <br>
+gds = 2.0228e-05 (S) <br>
+avo=gm/gds = 30.70 (V/V) <br>
+fu = 0.0977 (GHz) <br>
