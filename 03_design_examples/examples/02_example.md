@@ -59,7 +59,6 @@ L_m   = Lvec(M);
 fT_m  = fT(M);
 W_m = ID./look_up(nch,'ID_W','GM_ID', gm_id,'L',L_m);
 
-P = max(find(M==1)); % number of usable L - same as N :-)
 L = linspace(min(Lvec(M)), max(Lvec(M)),4); % take 4 of the usable L
 
 GM_ID = look_up(nch,'GM_ID','ID_W',JD,'L',L)';
