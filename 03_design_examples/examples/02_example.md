@@ -136,13 +136,13 @@ fT = 1.0412e+09 (Hz) <br>
 FO = fT/fu = 10.41 <br>
 
 <p align="center">
-   <img src="./img/IGS_ex3_2_a.png" width="800" >
+   <img src="./img/IGS_ex3_2_a.png" width="600" >
 </p>
 <p align="center">
 Fig. Transit frequency $f_{T}$ and DC gain $A_{v0}$ versus $g_{m}/I_{D}$ for various L
 
 <p align="center">
-   <img src="./img/IGS_ex3_2_b.png" width="800" >
+   <img src="./img/IGS_ex3_2_b.png" width="600" >
 </p>
 <p align="center">
 Fig. DC gain $A_{v0}$ , device-width W, and fan-out FO versus device-length L
