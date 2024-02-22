@@ -7,7 +7,7 @@ and fan-out (FO = $f_{T}/f_{u}$).
 Sizing for constant $g_{m}/I_{D}$ is typical of circuits that are either limited by distortion (linearity places an <br> 
 upper bound on $g_{m}/I_{D}$) or that operate at low voltage and require a large signal swing ( $g_{m}/I_{D}$ = 2 / $V_{Dsat}$ ). <br>
 
-### matlab's design script (igs_ex3_2.m)
+#### matlab's design script (igs_ex3_2.m)
 
 ```
 % File: igs_ex3_2.m
@@ -124,3 +124,14 @@ fprintf('fT = %.4e (Hz)\n',fT(N))
 fprintf('FO = fT/fu = %.2f\n',FO(N))
 ```
 
+------ Results ------<br>
+VGS = 0.3233 (V) <br>
+ID = 41.8879 (uA) <br>
+gm = 6.28e-04 (S) <br>
+gm/ID = 1.50e+01 (S/A) <br>
+L = 0.85 (um) <br>
+W = 19.58 (um) <br>
+avo = gm/gds = 31.00 (V/V) <br>
+gds = 2.03e-05 (S) <br>
+fT = 1.0412e+09 (Hz) <br>
+FO = fT/fu = 10.41 <br>
