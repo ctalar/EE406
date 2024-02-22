@@ -146,3 +146,9 @@ Fig. Transit frequency $f_{T}$ and DC gain $A_{v0}$ versus $g_{m}/I_{D}$ for var
 </p>
 <p align="center">
 Fig. DC gain $A_{v0}$ , device-width W, and fan-out FO versus device-length L
+
+#### Xschem/NGspice simulation setup to verify the design (igs_ex3_2.sch)
+<p align="center">
+   <img src="./img/IGS_ex3_2_sch.png" width="1000" >
+</p>
+
