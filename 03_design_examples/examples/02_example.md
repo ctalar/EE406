@@ -192,14 +192,11 @@ hold on;
 yline(0); % unit gain (0 dB)
 plot(fu,0,'o','MarkerSize',12,'Linewidth',2);
 str = ['fu \approx ',num2str(fu*1e-9,'%.4f'), ' GHz'];
-text(1e7,1,str,'fontsize',12)
+text(1e6,1,str,'fontsize',12)
 % annotate avo
 str = ['A_{vo} \approx ',num2str(gaindb,'%.4f'), ' dB (= ',...
     num2str(gain,'%.2f'), ' V/V)'];
 text(2e1,31,str,'fontsize',12)
-% annotate f3db
-str = ['f_{3dB} \approx ',num2str(f3db*1e-6,'%.2f'), ' MHz \rightarrow'];
-text(2e5,gaindb-3, str, 'fontsize',12)
 
 % DC analysis
 x = loadsig('./simulations/igs_ex3_2_dc.raw')
