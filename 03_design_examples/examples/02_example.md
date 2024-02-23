@@ -225,7 +225,7 @@ fprintf('fu = %.4f (GHz)\n',fu*1e-9);
 ```
 
 <p align="center">
-   <img src="./img/IGS_ex3_2_sim_a.png" width="800" >
+   <img src="./img/IGS_ex3_2_sim_a.png" width="600" >
 </p>
 
 ID = 4.1880e-05 (A) <br>
