@@ -227,6 +227,10 @@ fprintf('avo=gm/gds = %.2f (V/V)\n',avo);
 fprintf('fu = %.4f (GHz)\n',fu*1e-9);
 ```
 
+<p align="center">
+   <img src="./img/IGS_ex3_2_sim_a.png" width="800" >
+</p>
+
 ID = 4.1880e-05 (A) <br>
 VGS = 0.3233 (V) <br>
 VTH = 0.2445 (V) <br>
@@ -237,3 +241,20 @@ gm/ID = 14.83 (S/A) <br>
 gds = 2.0228e-05 (S) <br>
 avo=gm/gds = 30.70 (V/V) <br>
 fu = 0.0977 (GHz) <br>
+
+#### Comparing the design and the simulation
+<p align="left">
+% Error = $\dfrac{True value-Expected value}{True value}$ $\times 100$
+</p>
+
+% Error on $V_{DS}$ : 100*(0.5829 - 0.6)/0.5829 = -2.9% <br>
+% Error on $g_{m}$ : 100*(6.2105e-04 - 6.28e-04)/6.2105e-04 = -1.12% <br>
+% Error on $g_{ds}$ : 100*(2.0228e-05 - 2.03e-05)/2.0228e-05 = -0.36% <br>
+% Error on $A_{vo}$ : 100*(30.70-31.00)/30.70 = -1% <br>
+% Error on $g_{m}/I_{D}$ : 100*(14.83-15)/14.83 = -1.15% <br>
+% Error on $f_{u}$ :  100*(0.0977 -0.1)/0.0977 = -2.35% <br>
+
+<br>*The design using the LUTs is right on target!*
+<p align="left">
+   <img src="./img/target.jpg" width="100" >
+</p
