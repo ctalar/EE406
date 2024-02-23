@@ -241,7 +241,7 @@ fu = 0.0977 (GHz) <br>
 
 #### Comparing the design and the simulation
 <p align="left">
-% Error = $\dfrac{True value-Expected value}{True value}$ $\times 100$
+% Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
 </p>
 
 % Error on $V_{DS}$ : 100*(0.5829 - 0.6)/0.5829 = -2.9% <br>
