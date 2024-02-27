@@ -118,7 +118,7 @@ figure(3);
 JD = logspace(-9,-4.2,50);     % (A/µm)
 GMID = 15;                     % (S/A)
 % usable L (FO >= 10)
-L = [0.1300    0.3716    0.6132    0.8547]
+% L = [0.1300    0.3716    0.6132    0.8547]
 gm_ID = look_up(nch,'GM_ID','ID_W',JD,'L',L)';
 Av0   = look_up(nch,'GM_GDS','ID_W',JD,'L',L)';
 fT    = 1e-9*look_up(nch,'GM_CGG','ID_W',JD,'L',L)'/(2*pi);
