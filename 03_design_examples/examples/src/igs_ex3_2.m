@@ -28,6 +28,7 @@ NL = length(nch.L);
 Lvec = linspace(nch.L(1),nch.L(NL)); % slice L in 100 points
 
 JD = look_up(nch,'ID_W', 'GM_ID', gm_id, 'L',Lvec);
+% JD = logspace(-9,-4.2,50); % alternative: Jesper and Murmann style
 W = ID./JD;
 gm_ID = look_up(nch,'GM_ID','ID_W',JD,'L',Lvec)';
 fT = look_up(nch,'GM_CGG','GM_ID',gm_id,'L',Lvec)/(2*pi);
@@ -40,7 +41,7 @@ M = FO >= 10;          % index vector of usable L range
 Lmax = max(Lvec(M))    % the largest achievable gain is for Lmax
 Lmin = min(Lvec(M))    
 N = find(M,1,'last');     % index of Lmax
-% P = max(find(M==1));    % number of usable L - same as N :-)
+% P = max(find(M==1));    % number of usable L <-> same as N :-)
 
 Avo_m = look_up(nch,'GM_GDS','GM_ID', gm_id,'L',Lvec(M));
 L_m   = Lvec(M);
@@ -55,10 +56,10 @@ FT = 1e-9*look_up(nch,'GM_CGG','GM_ID',GM_ID,'L',L)';
 
 % mark L
 for k = 1: length(L)
-    %fT1(k,1)  = interp1(GM_ID(:,k),FT(:,k), 15,'spline');  % gm_id = 15
-    %Av01(k,1) = interp1(GM_ID(:,k),AV0(:,k), 15,'spline'); % gm_id = 15
-    fT1(k,1)  = interp1(GM_ID(:,k),FT(:,k), 15.01);      % gm_id = 15.01
-    Av01(k,1) = interp1(GM_ID(:,k),AV0(:,k), 15.01);     % gm_id = 15.01
+    fT1(k,1)  = interp1(GM_ID(:,k),FT(:,k), 15,'spline');  % gm_id = 15
+    Av01(k,1) = interp1(GM_ID(:,k),AV0(:,k), 15,'spline'); % gm_id = 15
+    %fT1(k,1)  = interp1(GM_ID(:,k),FT(:,k), 15.01);      % gm_id = 15.01
+    %Av01(k,1) = interp1(GM_ID(:,k),AV0(:,k), 15.01);     % gm_id = 15.01
 end
 
 % NOTE: the default interpolation method ('linear') causes a few NaN.
@@ -109,4 +110,36 @@ fprintf('avo = gm/gds = %.2f (V/V)\n',Avo(N));
 fprintf('gds = %.2e (S)\n',gm/Avo(N));
 fprintf('fT = %.4e (Hz)\n',fT(N))
 fprintf('FO = fT/fu = %.2f\n',FO(N))
+
+% Plot of |AV0| and fT vs. L for gm/ID = 15 using Murmann & Jesper style 
+% (Fig. 3.8-b)
+% define JD using logspace
+figure(3);
+JD = logspace(-9,-4.2,50);     % (A/µm)
+GMID = 15;                     % (S/A)
+% usable L (FO >= 10)
+L = [0.1300    0.3716    0.6132    0.8547]
+gm_ID = look_up(nch,'GM_ID','ID_W',JD,'L',L)';
+Av0   = look_up(nch,'GM_GDS','ID_W',JD,'L',L)';
+fT    = 1e-9*look_up(nch,'GM_CGG','ID_W',JD,'L',L)'/(2*pi);
+% mark L
+for k = 1: length(L),
+    fT1(k,1) = interp1(gm_ID(:,k),fT(:,k),15);
+    Av01(k,1) = interp1(gm_ID(:,k),Av0(:,k),15);
+end
+[X Y] = meshgrid(JD,nch.L);
+[a1 b1] = contour(X,Y,lookup(nch,'GM_ID','ID_W',JD,'L',nch.L),GMID*[1 1])
+JD1 = a1(1,2:end)';
+Lx  = a1(2,2:end)';
+fTx = 1e-9*diag(lookup(nch,'GM_CGG','ID_W',JD1,'L',Lx))/(2*pi);
+Avx = diag(lookup(nch,'GM_GDS','ID_W',JD1,'L',Lx));
+semilogy(Lx,Avx,'k--',Lx,fTx,'k','linewidth',1); 
+hold;
+semilogy(L,fT1,'ko',L,Av01,'ks', 'linewidth', 1.05, 'markersize', 7);
+axis([0 1 .1 1000]); 
+set(gca, 'xtick', [0:0.2:1], 'yminorgrid', 'on');
+xlabel({'{\itL}  (µm)'},'fontsize',12); grid; hold
+legend('{|\itA_v_0|}', '{\itf_T} (GHz)', 'location', 'northwest',...
+    'fontsize',12);
+
 
