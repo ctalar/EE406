@@ -183,7 +183,7 @@ Fig. DC gain $A_{v0}$ , device-width W, and fan-out FO versus device-length L
    <img src="./img/IGS_ex3_2_c.png" width="600" >
 </p>
 <p align="center">
-Fig. DC gain $A_{v0}$ and $f_{T}$ versus device-length L at $g_{m}\I_{D}$ = 15 S/A
+Fig. DC gain $A_{v0}$ and $f_{T}$ versus device-length L at $g_{m}/I_{D}$ = 15 S/A
     
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_2.sch)
 <p align="center">
