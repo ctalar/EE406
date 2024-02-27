@@ -123,8 +123,9 @@ fprintf('gds = %.2e (S)\n',gm/Avo(N));
 fprintf('fT = %.4e (Hz)\n',fT(N))
 fprintf('FO = fT/fu = %.2f\n',FO(N))
 
-% plot of |AV0| and fT vs. L for gm/ID = 15 using Murmann & Jesper style (Fig. 3.8-b)
-% (define JD using logspace)
+% plot of |AV0| and fT vs. L for gm/ID = 15 using Murmann & Jesper style
+% (Fig. 3.8-b)
+% define JD using logspace
 figure(3);
 JD = logspace(-9,-4.2,50);     % (A/µm)
 GMID = 15;                     % (S/A)
