@@ -98,7 +98,7 @@ legend('|{\itA_{V0}}|','{\itg_{m}/I_{D} (S/A)}', ...
 hold off;
 
 % =========== constant fT = 10GHz locus =======================
-% plot feasible pairs of (L, gm/ID) for which fT=10GHz
+% approach based on finding feasible pairs of (L, gm/ID) for which fT=10GHz
 Lvec=0.13:0.01:3;
 FTran = 1e10;
 GMIDvec = look_up(nch,'GM_ID','GM_CGG',FTran*2*pi,'L',Lvec)';
@@ -123,7 +123,6 @@ title('Feasible ({\itL, G_m/I_D}) pairs - constant {\itf_T = 10GHz} locus',...
 
 % plot gain vs. gm/ID at fT=10GHz
 % option 1. design to maximize gain
-% Simple approach based on feasible pairs of (L, gm/ID) for which fT=10GHz
 figure(5);
 plot(GMIDfeas,AV0feas,'LineWidth',1);
 set (gca,'FontSize',12);
