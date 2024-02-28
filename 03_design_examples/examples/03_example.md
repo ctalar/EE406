@@ -311,3 +311,9 @@ fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
 </p>
 <p align="center">
 <b>Figure 3.10 (b)</b> DC gain $|A_{v0}|$ and $g_{m}/I_{D}$ versus $L$ at $f_T$=10GHz
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_c.png" width="600" >
+</p>
+<p align="center">
+<b>Figure.</b> Feasible ($L$, $g_{m}/I_{D}$) pairs for constant $f_T$=10GHz
