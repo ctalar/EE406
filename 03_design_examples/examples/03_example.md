@@ -364,5 +364,10 @@ Av0 = 23.08; gm/ID = 7.23 (S/A); L= 0.36 (um); VGS = 0.5500 (V); W = 29.95 (um);
 *option 2 - minimize current:*<br> 
 Av0 = 16.73; gm/ID = 14.88 (S/A); L= 0.13 (um); VGS = 0.4816 (V); W = 66.86 (um); gm = 6.28e-03 (S); ID = 4.22e-04 (A)
 
-#### NOTE:
+##### NOTE:
 As to be expected, due to their inherent approximations, the 3 design approaches generate slighly different design parameters.
+
+#### Xschem/NGspice simulation setup to verify the design (igs_ex3_3.sch)
+<p align="center">
+   <img src="./img/IGS_ex3_3_sch.png" width="1000" >
+</p>
