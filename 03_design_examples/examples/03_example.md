@@ -373,8 +373,8 @@ As to be expected, due to their inherent approximations, the 3 design approaches
    <img src="./img/IGS_ex3_3_sch.png" width="1000" >
 </p>
 
-** NOTE **<br>
-the simulation setup uses the design parameters obtained using the first approach (feasible pairs of (L, gm/ID) for which fT=10GHz)
+**NOTE**<br>
+the simulation setup uses the design parameters obtained using the first approach (feasible pairs of (L, gm/ID) for which fT=10GHz)<br>
 The first approach is less elegant but simpler<br>
 
 **Simulation Results**
