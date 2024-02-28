@@ -9,4 +9,4 @@ The examples are "adapted" to use the [IHP sg13g2 open-source PDK](https://githu
 | 3.1 pp. 67-69	| [01](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/01_example.md) | sizing for given L and $g_{m}/I_{D}$  |  
 | 3.2 pp. 70-73  |  [02](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/02_example.md) | sizing at constant $g_{m}/I_{D}$ |
 | 3.3 pp. 73-77  | [03](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/03_example.md) | sizing at constant $f_{T}$ |
-| 3.4 pp. 77-79  | [04](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/04_example.md) | sizing at constant $A_{V0}$ |
+| 3.4 pp. 77-79  | [04](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/04_example.md) | sizing at constant $\|A_{V0}\|$ |
