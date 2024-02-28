@@ -332,3 +332,8 @@ The design parameters that maximize the gain are extracted using the feasible pa
 <p align="center">
    <img src="./img/IGS_ex3_3_f.png" width="600" >
 </p>
+<p align="center">
+<b>Figure 3.11 </b> (a) DC gain $|A_{V0}|$ and (b) gate length $L$ vs. $g_{m}/I_{D}$) for constant $f_T$=10GHz<br>
+The circles mark the design parameters that maximize gain <br>
+The asterisks mark the design parameters that minimize current<br>    
+The design parameters are extracted using the fT contour with X = log10(JD) and Y = nch.L
