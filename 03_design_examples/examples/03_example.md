@@ -117,8 +117,8 @@ figure(4);
 plot(Lfeas, GMIDfeas,'linewidth',1);
 set (gca,'FontSize',12,'FontName','Helvetica');
 xlabel('L (\mum)');
-ylabel('G_m/I_D (S/A)')
-title('Feasible ({\itL, G_m/I_D}) pairs - constant {\itf_T = 10GHz} locus',...
+ylabel('g_m/I_D (S/A)')
+title('Feasible ({\itL, g_m/I_D}) pairs - constant {\itf_T = 10GHz} locus',...
       'FontSize',14,'FontWeight','normal')
 
 % plot gain vs. gm/ID at fT=10GHz
@@ -126,7 +126,7 @@ title('Feasible ({\itL, G_m/I_D}) pairs - constant {\itf_T = 10GHz} locus',...
 figure(5);
 plot(GMIDfeas,AV0feas,'LineWidth',1);
 set (gca,'FontSize',12);
-xlabel('G_m/I_D (S/A)');
+xlabel('g_m/I_D (S/A)');
 ylabel('|A_{V0}| (V/V)');
 optAV0 = max(AV0feas);
 index_opt = find(AV0feas==optAV0);
@@ -149,12 +149,12 @@ hold on;
 plot(optGMID,optAV0,'ko','linewidth',2)
 hold off;
 fprintf('\noption 1 - maximize DC gain:\n')
-fprintf('Av0 = %.2f (V/V)\n',optAV0);
+fprintf('Av0 = %.2f \n',optAV0);
 fprintf('gm/id = %.2f (S/A)\n',optGMID);
 fprintf('L = %.2f (um)\n',optL);
 fprintf('VGS = %.4f (V)\n',optVGS);
 fprintf('W = %.2f (um)\n',optW);
-fprintf('gm = %.2e (V)\n',gm);
+fprintf('gm = %.2e (S)\n',gm);
 fprintf('ID = %.2e (A)\n\n',optID);
 
 %=============== gain vs. gm/ID at fT=10GHz ===================
@@ -203,8 +203,8 @@ text(6.5,22.5, ['( ',num2str(gmID(b),'%.2f'),' , ',...
 text(13,16, ['( ',num2str(gmID(d),'%.2f'),' , ',...
     num2str(Avo(d),'%.2f'), ')'], 'fontsize',12);
 % grid 
-xlabel({'{\itg_m}/{\itI_D} (S/A)'},'fontsize',12);
-ylabel('{\itA_v_o}','FontSize',12);
+xlabel({'{\itg_m}/{\itI_D} (S/A)';'(a)'},'fontsize',12);
+ylabel('{\it|A_V_0|}','FontSize',12);
 
 
 % plot L vs. gm/ID at fT=10GHz 
@@ -213,7 +213,7 @@ ylabel('{\itA_v_o}','FontSize',12);
 figure;
 plot(gmID,1e3*L,'k',gmID(b),1e3*L1,'ko',gmID(d),1e3*L2,'*k','linewidth',1)
 % grid 
-xlabel({'{\itg_m}/{\itI_D}  (S/A)'},'fontsize',12);
+xlabel({'{\itg_m}/{\itI_D}  (S/A)';'(b)'},'fontsize',12);
 ylabel('{\itL}  (nm)','FontSize',12);
 text(8,350, ['( ',num2str(gmID(b),'%.2f'),' , ',...
     num2str(1e3*L1,'%.2f'), ')'], 'fontsize',12);
@@ -221,14 +221,13 @@ text(12.2,130, ['( ',num2str(gmID(d),'%.2f'),' , ',...
     num2str(1e3*L2,'%.2f'), ')'], 'fontsize',12);
 
 fprintf('\noption 1 - maximize DC gain: \n')
-fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f; ', ...
+fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f (V); ', ...
     A1, gmIDmax, L1, VGS1)
-fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W1, gm, ID1);
-
+fprintf('W = %.2f (um); gm = %.2e (S); ID = %.2e (A)\n', W1, gm, ID1);
 fprintf('option 2 - minimize current: \n')
-fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f; ', ...
+fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f (V); ', ...
     A2, gmIDmin, L2, VGS2)
-fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
+fprintf('W = %.2f (um); gm = %.2e (S); ID = %.2e (A)\n', W2, gm, ID2);
 
 %========== gain and device width vs. current ==============
 % Approach based on fT contour with X = nch.VGS and Y = nch.L
@@ -290,15 +289,17 @@ text(0.6,19, ['( ',num2str(ID1,'%.2e'),' , ',...
     num2str(A1,'%.2f'), ')'], 'fontsize',12);
 
 fprintf('\noption 1 - maximize DC gain: \n')
-fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f; ', ...
+fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f (V); ', ...
     A1, gmIDmax, L1, VGS1)
-fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W1, gm, ID1);
+fprintf('W = %.2f (um); gm = %.2e (S); ID = %.2e (A)\n', W1, gm, ID1);
 
 fprintf('option 2 - minimize current: \n')
-fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f; ', ...
+fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f (V); ', ...
     A2, gmIDmin, L2, VGS2)
-fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
+fprintf('W = %.2f (um); gm = %.2e (S); ID = %.2e (A)\n', W2, gm, ID2);
 ```
+
+
 
 <p align="center">
    <img src="./img/IGS_ex3_3_a.png" width="600" >
@@ -359,3 +360,9 @@ The design parameters are extracted using the fT contour with X = nch.VGS and Y 
     
 **Design Approach #3 - Results Summary:**   
 *option 1 - maximize DC gain:*<br> 
+Av0 = 23.08; gm/ID = 7.23 (S/A); L= 0.36 (um); VGS = 0.5500 (V); W = 29.95 (um); gm = 6.28e-03 (S); ID = 8.69e-04 (A)<br>
+*option 2 - minimize current:*<br> 
+Av0 = 16.73; gm/ID = 14.88 (S/A); L= 0.13 (um); VGS = 0.4816 (V); W = 66.86 (um); gm = 6.28e-03 (S); ID = 4.22e-04 (A)
+
+### NOTE:
+As to be expected, due to their inherent approximations, the 3 design approaches generate slighly different design parameters.
