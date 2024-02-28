@@ -384,7 +384,8 @@ fu                  =  0.9764199 GHz<br>
 gm                  =  6.257e-03 S<br>
 gds                 =  2.577e-04 S<br>
 ID                  =  8.460e-04 A<br>
-VDS                 =  0.6458e   V<br>
+VDS                 =  0.6458 V<br>
+VGS                 =  0.5434 V<br>
 
 #### Comparing the design and the simulation
 <p align="left">
