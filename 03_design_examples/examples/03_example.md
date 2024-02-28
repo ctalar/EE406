@@ -304,4 +304,10 @@ fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
    <img src="./img/IGS_ex3_3_a.png" width="600" >
 </p>
 <p align="center">
-Fig. Transit frequency $f_{T}$ and DC gain $A_{v0}$ versus $g_{m}/I_{D}$ for various L
+<b>Figure 3.10 (a)</b> Transit frequency $f_{T}$ and DC gain $|A_{v0}|$ versus $g_{m}/I_{D}$ for four values of L
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_b.png" width="600" >
+</p>
+<p align="center">
+<b>Figure 3.10 (b)</b> DC gain $|A_{v0}|$ and $g_{m}/I_{D}$ versus $L$ at $f_T$=10GHz
