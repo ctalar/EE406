@@ -391,11 +391,11 @@ VDS                 =  0.6458e   V<br>
 % Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
 </p>
 
-% Error on $V_{DS}$ : 100*(0.6458 - 0.6)/0.6458 = % <br>
-% Error on $g_{m}$ : 100*(6.257e-03 - 6.28e-03)/6.257e-03 = % <br>
-% Error on $A_{vo}$ : 100*(24.28-23.09)/24.28 = % <br>
-% Error on $g_{m}/I_{D}$ : 100*(7.39-7.42)/7.39 = % <br>
-% Error on $f_{u}$ :  100*(0.0976 -0.1)/0.0976 = -% <br>
+% Error on $V_{DS}$ : 100*(0.6458 - 0.6)/0.6458 = 7.09% <br>
+% Error on $g_{m}$ : 100*(6.257e-03 - 6.28e-03)/6.257e-03 = -0.37% <br>
+% Error on $A_{vo}$ : 100*(24.28-23.09)/24.28 = 4.90% <br>
+% Error on $g_{m}/I_{D}$ : 100*(7.39-7.42)/7.39 = -0.41% <br>
+% Error on $f_{u}$ :  100*(0.0976 -0.1)/0.0976 = -2.46% <br>
 
 <br>*The design using the LUTs is right on target!*
 <p align="left">
