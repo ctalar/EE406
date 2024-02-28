@@ -374,7 +374,11 @@ As to be expected, due to their inherent approximations, the 3 design approaches
 </p>
 
 **Simulation Results**
-dc_gain             =  24.28109  V/V
-fu                  =  0.9764199 GHz
-gm                  =  6.257e-03 S
-gds                 =  2.577e-04 S
+
+dc_gain             =  24.28109  V/V<br>
+fu                  =  0.9764199 GHz<br>
+gm                  =  6.257e-03 S<br>
+gds                 =  2.577e-04 S<br>
+ID                  =  8.460e-04 A<br>
+VDS                 =  0.6458e   V<br>
+
