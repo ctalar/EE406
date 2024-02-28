@@ -299,3 +299,9 @@ fprintf('Av0 = %.2f; gm/ID = %.2f (S/A); L= %.2f (um); VGS = %.4f; ', ...
     A2, gmIDmin, L2, VGS2)
 fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
 ```
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_a.png" width="600" >
+</p>
+<p align="center">
+Fig. Transit frequency $f_{T}$ and DC gain $A_{v0}$ versus $g_{m}/I_{D}$ for various L
