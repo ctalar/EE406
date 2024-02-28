@@ -372,3 +372,9 @@ As to be expected, due to their inherent approximations, the 3 design approaches
 <p align="center">
    <img src="./img/IGS_ex3_3_sch.png" width="1000" >
 </p>
+
+**Simulation Results**
+dc_gain             =  24.28109  V/V
+fu                  =  0.9764199 GHz
+gm                  =  6.257e-03 S
+gds                 =  2.577e-04 S
