@@ -373,6 +373,10 @@ As to be expected, due to their inherent approximations, the 3 design approaches
    <img src="./img/IGS_ex3_3_sch.png" width="1000" >
 </p>
 
+** NOTE **<br>
+the simulation setup uses the design parameters obtained using the first approach (feasible pairs of (L, gm/ID) for which fT=10GHz)
+The first approach is less elegant but simpler<br>
+
 **Simulation Results**
 
 dc_gain             =  24.28109  V/V<br>
@@ -389,8 +393,8 @@ VDS                 =  0.6458e   V<br>
 
 % Error on $V_{DS}$ : 100*(0.6458 - 0.6)/0.6458 = % <br>
 % Error on $g_{m}$ : 100*(6.257e-03 - 6.28e-03)/6.257e-03 = % <br>
-% Error on $A_{vo}$ : 100*(24.28-)/24.28 = % <br>
-% Error on $g_{m}/I_{D}$ : 100*(7.39-12.92)/7.39 = % <br>
+% Error on $A_{vo}$ : 100*(24.28-23.09)/24.28 = % <br>
+% Error on $g_{m}/I_{D}$ : 100*(7.39-7.42)/7.39 = % <br>
 % Error on $f_{u}$ :  100*(0.0976 -0.1)/0.0976 = -% <br>
 
 <br>*The design using the LUTs is right on target!*
