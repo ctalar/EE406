@@ -323,7 +323,11 @@ fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
 </p>
 <p align="center">
 <b>Figure.</b> DC gain $|A_{V0}|$ vs. $g_{m}/I_{D}$) for constant $f_T$=10GHz<br>
-The design parameters that maximize the gain are extracted using the feasible pairs of (L, gm/ID) for which fT=10GHz.
+The design parameters that maximize the gain are extracted using the feasible pairs of (L, gm/ID) for which fT=10GHz.<br>
+
+**Design Approach #1 - Results Summary:**<br> 
+*option 1 - maximize DC gain:*<br> 
+Av0 = 23.09; gm/ID = 7.42 (S/A); L = 0.35 (um); VGS = 0.5434 (V); W = 30.52 (um); gm = 6.28e-03 (S); ID = 8.46e-04 (A)<br>
 
 <p align="center">
    <img src="./img/IGS_ex3_3_e.png" width="600" >
@@ -337,3 +341,9 @@ The design parameters that maximize the gain are extracted using the feasible pa
 The circles mark the design parameters that maximize gain <br>
 The asterisks mark the design parameters that minimize current<br>    
 The design parameters are extracted using the fT contour with X = log10(JD) and Y = nch.L
+
+**Design Approach #2 - Results Summary:**   
+*option 1 - maximize DC gain:*<br> 
+Av0 = 23.06; gm/ID = 7.73 (S/A); L= 0.34 (um); VGS = 0.5333 (V); W = 31.44 (um); gm = 6.28e-03 (S); ID = 8.12e-04 (A)<br>
+*option 2 - minimize current:*<br>
+Av0 = 16.69; gm/ID = 14.84 (S/A); L= 0.13 (um); VGS = 0.4816 (V); W = 67.61 (um); gm = 6.28e-03 (S); ID = 4.23e-04 (A)<br>
