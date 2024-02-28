@@ -324,3 +324,11 @@ fprintf('W = %.2f (um); gm = %.2e; ID = %.2e\n', W2, gm, ID2);
 <p align="center">
 <b>Figure.</b> DC gain $|A_{V0}|$ vs. $g_{m}/I_{D}$) for constant $f_T$=10GHz<br>
 The design parameters that maximize the gain are extracted using the feasible pairs of (L, gm/ID) for which fT=10GHz.
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_e.png" width="600" >
+</p>
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_f.png" width="600" >
+</p>
