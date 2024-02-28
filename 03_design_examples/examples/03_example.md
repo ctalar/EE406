@@ -337,7 +337,7 @@ Av0 = 23.09; gm/ID = 7.42 (S/A); L = 0.35 (um); VGS = 0.5434 (V); W = 30.52 (um)
    <img src="./img/IGS_ex3_3_f.png" width="600" >
 </p>
 <p align="center">
-<b>Figure 3.11 </b> (a) DC gain $|A_{V0}|$ and (b) gate length $L$ vs. $g_{m}/I_{D}$) for constant $f_T$=10GHz<br>
+<b>Figure 3.11 </b> (a) DC gain $|A_{V0}|$ and (b) gate length $L$ vs. $g_{m}/I_{D}$ for constant $f_T$=10GHz<br>
 The circles mark the design parameters that maximize gain <br>
 The asterisks mark the design parameters that minimize current<br>    
 The design parameters are extracted using the fT contour with X = log10(JD) and Y = nch.L
@@ -347,3 +347,15 @@ The design parameters are extracted using the fT contour with X = log10(JD) and 
 Av0 = 23.06; gm/ID = 7.73 (S/A); L= 0.34 (um); VGS = 0.5333 (V); W = 31.44 (um); gm = 6.28e-03 (S); ID = 8.12e-04 (A)<br>
 *option 2 - minimize current:*<br>
 Av0 = 16.69; gm/ID = 14.84 (S/A); L= 0.13 (um); VGS = 0.4816 (V); W = 67.61 (um); gm = 6.28e-03 (S); ID = 4.23e-04 (A)<br>
+
+<p align="center">
+   <img src="./img/IGS_ex3_3_g.png" width="600" >
+</p>
+<p align="center">
+<b>Figure 3.12 </b> (a) DC gain $|A_{V0}|$ and (b) width $W$ vs. $I_{D}$ for constant $f_T$=10GHz<br>
+The circles mark the design parameters that maximize gain <br>
+The asterisks mark the design parameters that minimize current<br>
+The design parameters are extracted using the fT contour with X = nch.VGS and Y = nch.L
+    
+**Design Approach #3 - Results Summary:**   
+*option 1 - maximize DC gain:*<br> 
