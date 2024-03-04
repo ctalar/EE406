@@ -201,3 +201,8 @@ Av0 = 30; gm/ID = 8.10 (S/A); ID = 1.80e-04 (A); VGS = 0.4708 (V); fu = 2.32e+08
 
 *option 2: minimize current (30% fu reduction)*<br>
 Av0 = 30; gm/ID = 11.77 (S/A); ID = 9.12e-05 (A); VGS = 0.3782 (V); fu = 1.71e+08 (Hz); L = 0.79 (um); W = 19.90 (um); 
+
+#### Xschem/NGspice simulation setup to verify the design (igs_ex3_4a.sch) - option 1
+<p align="center">
+   <img src="./img/IGS_ex3_4a_sch.png" width="1000" >
+</p>
