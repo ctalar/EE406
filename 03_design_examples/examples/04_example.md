@@ -209,7 +209,7 @@ Av0 = 30; gm/ID = 11.77 (S/A); ID = 9.12e-05 (A); VGS = 0.3782 (V); fu = 1.71e+0
 
 ### Simulation Results - option 1
 dc_gain             =  37.89 V/V<br>
-fu                  =  0.02246 GHz<br>
+fu                  =  0.2246 GHz<br>
 ID                  =  1.800e-04 A<br>
 VGS                 =  4.708e-01 V<br>
 VDS                 =  8.395e-01 V<br>
