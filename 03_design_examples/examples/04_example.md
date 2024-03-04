@@ -206,3 +206,14 @@ Av0 = 30; gm/ID = 11.77 (S/A); ID = 9.12e-05 (A); VGS = 0.3782 (V); fu = 1.71e+0
 <p align="center">
    <img src="./img/IGS_ex3_4a_sch.png" width="1000" >
 </p>
+
+### Simulation Results - option 1
+dc_gain             =  37.89<br>
+fu                  =  2.245795e+08<br>
+ID                  =  1.800e-04<br>
+VGS                 =  4.708e-01<br>
+VDS                 =  8.395e-01<br>
+gm                  =  1.425e-03<br>
+gds                 =  3.760e-05<br>
+
+
