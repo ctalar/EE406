@@ -195,7 +195,7 @@ The circles mark the design parameters that maximize $f_u$<br>
 The asterisks mark the design parameters that minimize current for a 30% reduction of the $f_u$
 
 
-**Design Parameters - Results Summary**<br>
+**Summary of Design Parameters**<br>
 *option 1: maximize unity gain frequency fu*<br> 
 Av0 = 30; gm/ID = 8.10 (S/A); ID = 1.80e-04 (A); VGS = 0.4708 (V); fu = 2.32e+08 (Hz); L = 0.86 (um); W = 16.53 (um); 
 
