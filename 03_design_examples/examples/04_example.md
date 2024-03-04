@@ -215,6 +215,7 @@ VGS                 =  0.4708 V<br>
 VDS                 =  0.8395 V<br>
 gm                  =  1.425e-03 S<br>
 gds                 =  3.760e-05 S<br>
+gm/ID               =  7.9167 S/A
 
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_4b.sch) - option 2
 <p align="center">
