@@ -243,3 +243,14 @@ VDS                 =  0.5978 V<br>
 gm                  =  1.054e-03 S<br>
 gds                 =  3.480e-05 S<br>
 gm/ID               =  11.5570 S/A
+
+#### Comparing the design and the simulation - option 2
+<p align="left">
+% Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
+</p>
+
+% Error on $V_{DS}$ : 100*(0.5978 - 0.6)/0.5978 = -0.37% <br>
+% Error on $A_{vo}$ : 100*(30.28-30)/30.28 = 0.92% <br>
+% Error on $g_{m}/I_{D}$ : 100*(11.56-11.77)/11.56 = -1.82% <br>
+% Error on $f_{u}$ :  100*(0.166 -0.171)/0.166 = -3.01% <br>
+
