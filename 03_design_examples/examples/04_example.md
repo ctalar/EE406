@@ -230,4 +230,4 @@ VGS                 =  0.3783 V<br>
 VDS                 =  0.5978 V<br>
 gm                  =  1.054e-03 S<br>
 gds                 =  3.480e-05 S<br>
-
+gm/ID               =  11.5570 S/A
