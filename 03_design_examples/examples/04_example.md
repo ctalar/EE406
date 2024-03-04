@@ -22,16 +22,19 @@ a certain target feedback loop gain. <br>
    <img src="./img/IGS_ex3_4_b.png" width="600" >
 </p>
 <p align="center">
-<b>Figure 3.13 (b)</b> $f_T$ and $g_{m}/I_{D}$ versus $L$ at $|A_{v0}|=25$
+<b>Figure 3.13 (b)</b> $f_T$ and $g_{m}/I_{D}$ versus $L$ at $|A_{v0}|=30$
 
 <p align="center">
    <img src="./img/IGS_ex3_4_c.png" width="600" >
 </p>
 <p align="center">
-<b>Figure 3.14 (a) </b> Transit frequency $f_{T}$ vs. $g_{m}/I_{D}$ at $|A_{v0}|=25$
-
+<b>Figure 3.14 (a) </b> Transit frequency $f_{T}$ vs. $g_{m}/I_{D}$ at $|A_{v0}|=30$<br>
+The circles mark the design parameters that maximize $f_u$<br>
+The asterisks mark the design parameters that minimize current for a 30% reduction of the $f_u$
 <p align="center">
    <img src="./img/IGS_ex3_4_d.png" width="600" >
 </p>
 <p align="center">
 <b>Figure 3.14 (b) </b> gate length $L$ vs. $g_{m}/I_{D}$ at $|A_{v0}|=25$
+The circles mark the design parameters that maximize $f_u$<br>
+The asterisks mark the design parameters that minimize current for a 30% reduction of the $f_u$
