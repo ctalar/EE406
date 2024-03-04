@@ -34,8 +34,8 @@ ID_W = look_up(nch,'ID_W','VGS',nch.VGS,'L',nch.L)';
 [minJD,maxJD] = bounds(ID_W,"all");
 HB = log10(maxJD)  % must "tweak" to avoid NaN
 LB = log10(minJD)  % must "tweak" to avoid NaN
-% The range is technology dependent and requires some trial and error
-% To better understand how to derive the JD range see J&M's Fig.3.15 
+% The range is technology-dependent and requires some trial and error
+% To better understand how to derive the JD range see J&M's Fig. 3.15 
 % and associated script
 
 
@@ -55,7 +55,7 @@ for k = 1:length(L)
     fT1(k)  = interp1(gm_ID(:,k),fT(:,k),gmID1(k));
 end
 
-% reference gain (used to draw reference line on plot)
+% reference gain (used to draw a reference line on plot)
 X1 = [0 30]; 
 Y1 = Aref*[1 1];
 
@@ -171,7 +171,7 @@ fprintf('fu = %.2e (Hz); L = %.2f (um); W = %.2f (um); \n', fu2, L2, W2);
    <img src="./img/IGS_ex3_4_a.png" width="600" >
 </p>
 <p align="center">
-<b>Figure 3.13 (a)</b> Transit frequency $f_{T}$ and DC gain $|A_{v0}|$ versus $g_{m}/I_{D}$ for three values of L
+<b>Figure 3.13 (a)</b> Transit frequency $f_{T}$ and DC gain $|A_{v0}|$ versus $g_{m}/I_{D}$ for four values of L
 
 <p align="center">
    <img src="./img/IGS_ex3_4_b.png" width="600" >
