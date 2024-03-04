@@ -227,8 +227,10 @@ gm/ID               =  7.9167 S/A
 % Error on $g_{m}/I_{D}$ : 100*(7.92-8.10)/7.92 = -2.27% <br>
 % Error on $f_{u}$ :  100*(0.2246 -0.232)/0.2246 = -3.29% <br>
 
-
-
+<br>*The design using the LUTs is acceptably on target!*
+<p align="left">
+   <img src="./img/target.jpg" width="100" >
+</p
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_4b.sch) - option 2
 <p align="center">
    <img src="./img/IGS_ex3_4b_sch.png" width="1000" >
@@ -254,3 +256,7 @@ gm/ID               =  11.5570 S/A
 % Error on $g_{m}/I_{D}$ : 100*(11.56-11.77)/11.56 = -1.82% <br>
 % Error on $f_{u}$ :  100*(0.166 -0.171)/0.166 = -3.01% <br>
 
+<br>*The design using the LUTs is right on target!*
+<p align="left">
+   <img src="./img/target.jpg" width="100" >
+</p
