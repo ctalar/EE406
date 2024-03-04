@@ -211,8 +211,8 @@ Av0 = 30; gm/ID = 11.77 (S/A); ID = 9.12e-05 (A); VGS = 0.3782 (V); fu = 1.71e+0
 dc_gain             =  37.89 V/V<br>
 fu                  =  0.2246 GHz<br>
 ID                  =  1.800e-04 A<br>
-VGS                 =  4.708e-01 V<br>
-VDS                 =  8.395e-01 V<br>
+VGS                 =  0.4708 V<br>
+VDS                 =  0.8395 V<br>
 gm                  =  1.425e-03 S<br>
 gds                 =  3.760e-05 S<br>
 
@@ -222,11 +222,11 @@ gds                 =  3.760e-05 S<br>
 </p>
 
 #### Simulation Results - option 2
-dc_gain             =  37.89 V/V<br>
-fu                  =  0.2246 GHz<br>
-ID                  =  1.800e-04 A<br>
-VGS                 =  4.708e-01 V<br>
-VDS                 =  8.395e-01 V<br>
-gm                  =  1.425e-03 S<br>
-gds                 =  3.760e-05 S<br>
+dc_gain             =  30.28 V/V<br>
+fu                  =  0.166 GHz<br>
+ID                  =  9.120e-05 A<br>
+VGS                 =  0.3783 V<br>
+VDS                 =  0.5978 V<br>
+gm                  =  1.054e-03 S<br>
+gds                 =  3.480e-05 S<br>
 
