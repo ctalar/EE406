@@ -217,6 +217,18 @@ gm                  =  1.425e-03 S<br>
 gds                 =  3.760e-05 S<br>
 gm/ID               =  7.9167 S/A
 
+#### Comparing the design and the simulation - option 1
+<p align="left">
+% Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
+</p>
+
+% Error on $V_{DS}$ : 100*(0.8395 - 0.6)/0.8395 = 28% <br>
+% Error on $A_{vo}$ : 100*(37.89-30)/37.89 = 20.82% <br>
+% Error on $g_{m}/I_{D}$ : 100*(7.92-8.10)/7.92 = -2.27% <br>
+% Error on $f_{u}$ :  100*(0.2246 -0.232)/0.2246 = -3.29% <br>
+
+
+
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_4b.sch) - option 2
 <p align="center">
    <img src="./img/IGS_ex3_4b_sch.png" width="1000" >
