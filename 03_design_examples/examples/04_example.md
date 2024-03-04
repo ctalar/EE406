@@ -11,3 +11,9 @@ a certain target feedback loop gain. <br>
 ```
 
 ```
+
+<p align="center">
+   <img src="./img/IGS_ex3_4_a.png" width="600" >
+</p>
+<p align="center">
+<b>Figure 3.13 (a)</b> Transit frequency $f_{T}$ and DC gain $|A_{v0}|$ versus $g_{m}/I_{D}$ for three values of L
