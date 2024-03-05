@@ -27,6 +27,8 @@ In addition, we do not need to worry about fan-out because the ratios of $f_T$ a
 <p align="center">
 <b>Figure 3.16 (b) </b> Transient frequency ($f_{T}$) vs. drain current density ($J_{D}$) for nMOS with L = 0.13, 0.15, 0.20, 0.50, 1.00, 3.00 $\mu m$ <br>
 
+#### matlab's script (igs_ex3_wi.m)
+
 ```
 % source Jesper and Murmann
 % Fig 3.15 Sizing in weak inversion: 
