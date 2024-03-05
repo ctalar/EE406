@@ -227,27 +227,30 @@ gm/ID               =  7.9167 S/A
 % Error on $g_{m}/I_{D}$ : 100*(7.92-8.10)/7.92 = -2.27% <br>
 % Error on $f_{u}$ :  100*(0.2246 -0.232)/0.2246 = -3.29% <br>
 
-<br>*The design using the LUTs is a bit off!*<br>
+<br>*The design using the LUTs is a "bit" **off!** (still acceptable)<br>
 The culprit is the fixed gate voltage bias (that in turn causes the $V_{DS}$ to be off from the desired 0.6V)<br> 
 In a practical implementation, the DC gate voltage is set using an auxiliary feedback circuit that computes $V_{GS}$ such that $V_{DS}$=0.6V<br>
 
 If we set $V_{GS}=0.4820 V$ the simulation (**igs_ex3_4a_fix.sch**) results are:<br>
-dc_gain = 30.14 (V/V)<br>
-fu      =  0.2238860e+09 (V/V)<br>
-VGS     = 0.4780 (V)<br>
-VDS     = 0.5955 (V)<br>
-gm      = 1.421e-03 (S)<br>
-gds     = 4.715e-05 (S)<br>
-gm/ID   = 7.895 (S/A)<br>
+dc_gain = 30.14 V/V<br>
+fu      =  0.2238860e+09 V/V<br>
+VGS     = 0.4780 V<br>
+VDS     = 0.5955 V<br>
+gm      = 1.421e-03 S<br>
+gds     = 4.715e-05 S<br>
+gm/ID   = 7.895 S/A<br>
 
 % Error on $V_{DS}$ : 100*(0.5955 - 0.6)/0.5955 = -0.76% <br>
 % Error on $A_{vo}$ : 100*(30.14-30)/30.14 = 0.46% <br>
 % Error on $g_{m}/I_{D}$ : 100*(7.90-8.10)/7.90 = -2.53% <br>
 % Error on $f_{u}$ :  100*(0.2239 -0.232)/0.2239 = -3.61% <br>
 
+The design is right on target!
+
 <p align="left">
    <img src="./img/target.jpg" width="100" >
-</p
+</p>
+
 #### Xschem/NGspice simulation setup to verify the design (igs_ex3_4b.sch) - option 2
 <p align="center">
    <img src="./img/IGS_ex3_4b_sch.png" width="1000" >
