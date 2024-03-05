@@ -227,11 +227,11 @@ gm/ID               =  7.9167 S/A
 % Error on $g_{m}/I_{D}$ : 100*(7.92-8.10)/7.92 = -2.27% <br>
 % Error on $f_{u}$ :  100*(0.2246 -0.232)/0.2246 = -3.29% <br>
 
-<br>*The design using the LUTs is a "bit" **off!** (still acceptable)<br>
-The culprit is the fixed gate voltage bias (that in turn causes the $V_{DS}$ to be off from the desired 0.6V)<br> 
+<br>The design using the LUTs is a "bit" **off!** (although still acceptable)<br>
+The culprit is the fixed gate voltage bias $V_{GS}$ (that in turn causes the $V_{DS}$ to be off from the desired 0.6V)<br> 
 In a practical implementation, the DC gate voltage is set using an auxiliary feedback circuit that computes $V_{GS}$ such that $V_{DS}$=0.6V<br>
 
-If we set $V_{GS}=0.4820 V$ the simulation (**igs_ex3_4a_fix.sch**) results are:<br>
+If we set $V_{GS}=0.4820 V$ the simulation (**igs_ex3_4a_fix.sch**) results are:<br><br>
 dc_gain = 30.14 V/V<br>
 fu      =  0.2238860e+09 V/V<br>
 VGS     = 0.4780 V<br>
