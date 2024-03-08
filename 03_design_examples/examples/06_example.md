@@ -19,4 +19,4 @@ $V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}{I_D})_p \geq 10 
 To size the CS we begin with the IGS "associated" to the n-channel transistor<br>
 We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$ 
 
-As a consequence we compute also the $(g_{ds}/I_D)_p$) 
+This way we compute also the $(g_{ds}/I_D)_p$) 
