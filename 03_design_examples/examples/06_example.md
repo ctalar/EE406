@@ -16,7 +16,8 @@ To avoid excessive loss of output dynamics assume $V_{DsatP} \leq 0.2 V$
 
 $V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}{I_D})_p \geq 10 \ S/A $
 
-To size the CS we begin with the IGS "associated" to the n-channel transistor<br>
-We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$ 
+To size the CS we begin with the IGS "associated" to the n-channel transistor.
 
-This way we compute also the $(g_{ds}/I_D)_p$) 
+We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$. 
+
+This way we also compute the $(g_{ds}/I_D)_p$. 
