@@ -22,7 +22,9 @@ We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n
 
 This way we also compute the $(g_{ds}/I_D)_n$ 
 
-#### matlab's script (cs_ex_3_8.m)
-```
+---
+
+#### matlab's design script (cs_ex3_8.m)
+```ign 
 ```
 
