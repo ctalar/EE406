@@ -20,11 +20,11 @@ To size the CS we begin with the IGS "associated" to the n-channel transistor.
 
 We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$. 
 
-This way we also compute the $(g_{ds}/I_D)_n$ 
+This procedure also provides the corresponding $(g_{ds}/I_D)_n$ 
 
 ---
 
-#### matlab's design script (cs_ex3_8.m)
-```ign 
+#### matlab's design script (cs_ex3_8.m - part 1)
+``` 
 ```
 
