@@ -14,7 +14,7 @@ However, strong inversion means large drain saturation voltage, and therefore lo
 
 To avoid excessive loss of output dynamics assume $V_{DsatP} \leq 0.2 V$  
 
-$V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}{I_D})_p \geq 10 \ S/A $
+$V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}/{I_D})_p \geq 10 \ S/A $
 
 To size the CS we begin with the IGS "associated" to the n-channel transistor.
 
