@@ -37,24 +37,25 @@ VSB = 0;
 VDD = 1.2;
 VDS = VDD/2;
 FT = 10e9;
+FO = 10;
+fu = FT/FO;
 
 % ============= PART 1 ================
 
 % Gaining intuition about the impact of L2
 % == data
-L2 = .2*(1:5);  % L = [0.2 0.4 0.6 0.8 1.0] um 
+L2 = [0.13 .2*(1:5)];  % L = [0.13 0.2 0.4 0.6 0.8 1.0] um 
 gm_ID2 = 3:28;  % (S/A)
 % == compute
 gds_ID2 = look_up(pch,'GDS_ID','GM_ID',gm_ID2,'L',L2);
 % == plot
 h = figure(1);
 plot(gm_ID2,gds_ID2,'linewidth',1); 
-axis([2 max(gm_ID2)+1 0 0.4]); 
 grid off;
 xlabel('({g_m}/{I_D})_p   (S/A)','FontSize',12);
 ylabel('({g_d_s}/{I_D})_p   (S/A)','fontsize',12);
 % "automate" the creation of the legend
-for i=1:5
+for i=1:length(L2)
    legstr{i} = ['L_p = ',num2str(L2(i),'%.2f'),' \mum'];
 end
 legend(legstr,'location','best','fontsize',12,'box','on');
