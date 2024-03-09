@@ -16,15 +16,54 @@ To avoid excessive loss of output dynamics assume $V_{DsatP} \leq 0.2 V$
 
 $V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}/{I_D})_p \geq 10 \ S/A $
 
+---
+
+#### matlab's design script (cs_ex3_8.m - part 1)
+```
+% File: cs_ex3_8.m
+% source: Jesper and Murmann textbook
+% example 3_8 pp. 95-99
+% design of CS with active p-channel transistor load
+
+clear all; clearvars; close all; clc;
+
+addpath('~/ihome/class/gmidLUTs;~/ihome/class/gmidTECHs')
+load ('sg13_lv_nmos.mat');
+load ('sg13_lv_pmos.mat');
+
+% specs
+CL = 1e-12;
+VSB = 0;
+VDD = 1.2;
+VDS = VDD/2;
+FT = 10e9;
+
+% ============= PART 1 ================
+
+% Gaining intuition about the impact of L2
+% == data
+L2 = .2*(1:5);  % L = [0.2 0.4 0.6 0.8 1.0] um 
+gm_ID2 = 3:28;  % (S/A)
+% == compute
+gds_ID2 = look_up(pch,'GDS_ID','GM_ID',gm_ID2,'L',L2);
+% == plot
+h = figure(1);
+plot(gm_ID2,gds_ID2,'linewidth',1); 
+axis([2 max(gm_ID2)+1 0 0.4]); 
+grid off;
+xlabel('{(\itg_m}/{\itI_D})_2   (S/A)','FontSize',12);
+ylabel('{(\itg_d_s}/{\itI_D})_2   (S/A)','fontsize',12);
+% "automate" the creation of the legend
+for i=1:5
+   legstr{i} = ['L = ',num2str(L2(i),'%.2f'),' \mum'];
+end
+legend(legstr,'location','best','fontsize',12,'box','on');
+```
+
+---
+
 To size the CS we begin with the IGS "associated" to the n-channel transistor.
 
 We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$. 
 
 This procedure also provides the corresponding $(g_{ds}/I_D)_n$ 
-
----
-
-#### matlab's design script (cs_ex3_8.m - part 1)
-``` 
-```
-
