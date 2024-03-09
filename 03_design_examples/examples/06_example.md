@@ -60,6 +60,12 @@ end
 legend(legstr,'location','best','fontsize',12,'box','on');
 ```
 
+<p align="center">
+   <img src="./img/CD_ex3_8_a.png" width="600" >
+</p>
+<p align="center">
+<b>Figure 3.24 </b> $(g_{ds}/I_{D})_p$ vs. $(g_{m}/I_D)_p$ for various L <br>
+
 ---
 
 To size the CS we begin with the IGS "associated" to the n-channel transistor.
