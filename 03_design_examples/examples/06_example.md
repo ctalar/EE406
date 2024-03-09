@@ -51,11 +51,11 @@ h = figure(1);
 plot(gm_ID2,gds_ID2,'linewidth',1); 
 axis([2 max(gm_ID2)+1 0 0.4]); 
 grid off;
-xlabel('{(\itg_m}/{\itI_D})_2   (S/A)','FontSize',12);
-ylabel('{(\itg_d_s}/{\itI_D})_2   (S/A)','fontsize',12);
+xlabel('({g_m}/{I_D})_p   (S/A)','FontSize',12);
+ylabel('({g_d_s}/{I_D})_p   (S/A)','fontsize',12);
 % "automate" the creation of the legend
 for i=1:5
-   legstr{i} = ['L = ',num2str(L2(i),'%.2f'),' \mum'];
+   legstr{i} = ['L_p = ',num2str(L2(i),'%.2f'),' \mum'];
 end
 legend(legstr,'location','best','fontsize',12,'box','on');
 ```
