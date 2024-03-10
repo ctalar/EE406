@@ -97,8 +97,7 @@ gds_ID1 = diag(look_up(nch,'GDS_ID','GM_ID',gm_ID1,'L',L1));
 % set the gm_ID2 so that VDsatp is not larger than 0.2V 
 gm_ID2 = 10; % gm_ID2 should not drop below 10 S/A
 
-% search for the largest L2 that enable us to still meet the desired fT
-% (remember: fT = gm1/(Cdd1+Cdd2))
+% search for the largest L2 that enables us to still meet the desired fu
 % sweep L2
 L2 = [min(pch.L):0.01:max(pch.L)];
 gds_ID2 = look_up(pch,'GDS_ID','GM_ID',gm_ID2,'L',L2);
@@ -195,4 +194,7 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 ``L_n = 0.29 um ``<br>
 ``W_n = 47.59 um ``<br>
 
-
+#### Xschem/NGspice simulation setup to verify the design (CS_ex3_8.sch)
+<p align="center">
+   <img src="./img/CS_ex3_8_sch.png" width="1000" >
+</p>
