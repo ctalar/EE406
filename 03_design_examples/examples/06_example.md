@@ -203,14 +203,14 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 
 #### Simulation Results
 
-``|Av0| = 16.87 ``<br>
-``f_u = 1.07 GHz`` <br>
-``(gm/ID)_p = 9.96 S/A ``<br>
-``(gm/ID)_n = 9.16 S/A ``<br>
+``|Av0| = 17.39 ``<br>
+``f_u = 1.08 GHz`` <br>
+``(gm/ID)_p = 10.00 S/A ``<br>
+``(gm/ID)_n = 9.22 S/A ``<br>
 ``ID = 905.6 uA ``<br>
-``VG_p = 0.6663 V ``<br>
-``VG_n = 0.4998 V `` <br>
-``V_OUT = 0.5351 V`` <br>
+``VG_p = 0.6671 V ``<br>
+``VG_n = 0.4955 V `` <br>
+``V_OUT = 0.5935 V`` <br>
 
 #### Comparing the design and the simulation
 
