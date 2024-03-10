@@ -208,7 +208,7 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 ``f_u = 1.08 GHz`` <br>
 ``(gm/ID)_p = 10.00 S/A ``<br>
 ``(gm/ID)_n = 9.22 S/A ``<br>
-``ID = 905.6 uA ``<br>
+``ID = 892.2 uA ``<br>
 ``VG_p = 0.6671 V ``<br>
 ``VG_n = 0.4955 V `` <br>
 ``V_OUT = 0.5935 V`` <br>
@@ -219,15 +219,15 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 % Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
 </p>
 
-% Error on $V_{OUT}$ : 100*(0.5351 - 0.6)/0.5351 = -12.13 %
+% Error on $V_{OUT}$ : 100*(0.5935 - 0.6)/0.5935 =  %
 
-% Error on $A_{vo}$ : 100*(16.87-17.39)/16.87 = -3.08 %
+% Error on $A_{vo}$ : 100*(17.39-17.39)/17.39 = 0 %
 
-% Error on $(g_{m}/I_{D})_n$ : 100*(9.16-9.25)/9.16 = -0.98 %
+% Error on $(g_{m}/I_{D})_n$ : 100*(9.22-9.25)/9.22 = %
 
-% Error on $(g_{m}/I_{D})_p$ : 100*(9.96-10)/9.96 = -0.40 %
+% Error on $(g_{m}/I_{D})_p$ : 100*(10-10)/10 = 0 %
 
-% Error on $I_{D}$ : 100*(905.6-891.49)/905.6 = -1.56 %
+% Error on $I_{D}$ : 100*(892.2-891.49)/892.2 = %
 
 <br>*The design using the LUTs is right on target!*
 <p align="left">
