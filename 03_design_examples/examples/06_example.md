@@ -22,7 +22,7 @@ $V_{DsatP} = \dfrac{2}{(g_m/I_D)_p}$ $\leftrightarrow$  $({g_m}/{I_D})_p \geq 10
 ```
 % File: cs_ex3_8.m
 % source: Jesper and Murmann textbook
-% example 3_8 pp. 95-99
+% example 3_8 pp. 95-98
 % design of CS with active p-channel transistor load
 
 clear all; clearvars; close all; clc;
