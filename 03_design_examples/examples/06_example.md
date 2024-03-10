@@ -36,7 +36,7 @@ CL = 1e-12;
 VSB = 0;
 VDD = 1.2;
 VDS = VDD/2;
-FT=10e9;
+FT = 10e9;
 FO = 10;
 fu = FT/FO;
 
