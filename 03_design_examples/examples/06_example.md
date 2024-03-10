@@ -145,7 +145,7 @@ text(.8,250,'10 x |{\itA_v_0_m_a_x}|','fontsize', 12,'Color',"#D95319")
 recap = interp1(L2,[maxgain 1e6*ID gm_ID1(b) L1(b)' W1 W2],.5);
 
 VG1 = look_upVGS(nch,'GM_ID',recap(3));
-VG2 = look_upVGS(pch,'GM_ID',gm_ID2);
+VG2 = VDD - look_upVGS(pch,'GM_ID',gm_ID2);
 
 fprintf("------------- Results --------------\n")
 fprintf("|Av0| = %.2f\n",recap(1));
