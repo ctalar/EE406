@@ -198,3 +198,17 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 <p align="center">
    <img src="./img/CS_ex3_8_sch.png" width="1000" >
 </p>
+
+**NOTE:** In the practical setup the gate voltages are computed using replica circuits rather than fixed DC voltages so that $V_{OUT}$ is closer to the desired $V_{DD}/2$   
+
+#### Simulation Results
+
+``|Av0| = 16.87 ``<br>
+``f_u = 1.07 GHz`` <br>
+``(gm/ID)_p = 9.96 S/A ``<br>
+``(gm/ID)_n = 9.16 S/A ``<br>
+``ID = 905.6 uA ``<br>
+``VG_p = 0.6663 V ``<br>
+``VG_n = 0.4998 V `` <br>
+``V_OUT = 0.5351 V`` <br>
+
