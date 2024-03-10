@@ -169,7 +169,15 @@ fprintf("-------------------------------------\n")
 <b>Figure 3.25 (a) </b> Device Geometries <br>
 
 <p align="center">
-   <img src="./img/CS_ex3_8_b.png" width="600" >
+   <img src="./img/CS_ex3_8_c.png" width="600" >
 </p>
 <p align="center">
 <b>Figure 3.25 (b) </b> Drain current $I_D$ and maximum gain $|A_{V0}|_{max}$ vs. gate length of the p-channel load $L_p$ <br>
+
+---
+
+To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the self-loading increases with larger $L_n$ , a larger $gm_n$ is needed to maintain the desired unity gain frequency $f_u$. 
+
+**Fig. 3.25a** and **Fig. 3.25b** show that there is no reason to push $L_p$ beyond 0.5 $\mu m$ since the gain doesn't increase appreciably but the width of the load transistor $W_p$ grows rapidly and so does the drain current $I_D$.
+
+---
