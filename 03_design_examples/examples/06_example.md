@@ -219,15 +219,15 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 % Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
 </p>
 
-% Error on $V_{OUT}$ : 100*(0.5935 - 0.6)/0.5935 =  %
+% Error on $V_{OUT}$ : 100*(0.5935 - 0.6)/0.5935 =  -1.10 %
 
 % Error on $A_{vo}$ : 100*(17.39-17.39)/17.39 = 0 %
 
-% Error on $(g_{m}/I_{D})_n$ : 100*(9.22-9.25)/9.22 = %
+% Error on $(g_{m}/I_{D})_n$ : 100*(9.22-9.25)/9.22 = -0.33 %
 
 % Error on $(g_{m}/I_{D})_p$ : 100*(10-10)/10 = 0 %
 
-% Error on $I_{D}$ : 100*(892.2-891.49)/892.2 = %
+% Error on $I_{D}$ : 100*(892.2-891.49)/892.2 = 0.08 %
 
 <br>*The design using the LUTs is right on target!*
 <p align="left">
