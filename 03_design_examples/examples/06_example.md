@@ -181,3 +181,18 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 **Fig. 3.25a** and **Fig. 3.25b** show that there is no reason to push $L_p$ beyond 0.5 $\mu m$ since the gain doesn't increase appreciably but the width of the load transistor $W_p$ grows rapidly and so does the drain current $I_D$.
 
 ---
+
+#### Results
+
+|Av0| = 17.39 <br>
+(gm/ID)_p = 10.00 S/A <br>
+(gm/ID)_n = 9.25 S/A <br>
+ID = 891.49 uA <br>
+VG_p = 0.5735 um <br>
+L_p = 0.50 um <br>
+W_p = 343.04 um <br>
+VG_n = 0.6134 um <br>
+L_n = 0.29 um <br>
+W_n = 47.59 um <br>
+
+
