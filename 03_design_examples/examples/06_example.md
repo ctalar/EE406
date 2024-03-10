@@ -74,3 +74,9 @@ To size the CS we begin with the IGS "associated" to the n-channel transistor.
 We define a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$ vector to achieve the required transient frequency $f_T$. 
 
 This procedure also provides the corresponding $(g_{ds}/I_D)_n$ 
+
+Next, we perform a similar sweep of $L_p$ which lets us compute $(g_{ds}/I_{D})_n$  and $Avo$. 
+
+We search for the largest $L_{p}$ that allows us to still meet the desired $f_T$.
+
+---
