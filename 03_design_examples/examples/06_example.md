@@ -199,7 +199,7 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
    <img src="./img/CS_ex3_8_sch.png" width="1000" >
 </p>
 
-**NOTE:** In the practical setup the gate voltages are computed using replica circuits rather than fixed DC voltages so that $V_{OUT}$ is closer to the desired $V_{DD}/2$   
+**NOTE:** In the practical setup the gate voltages are computed using replica circuits rather than fixed DC voltages (this way $V_{OUT}$ is closer to the desired value of $V_{DD}/2$).   
 
 #### Simulation Results
 
