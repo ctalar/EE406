@@ -75,7 +75,7 @@ We sweep a suitable range of $L_{n}$ and compute the corresponding $(g_m/I_D)_n$
 
 This procedure also provides the corresponding $(g_{ds}/I_D)_n$ 
 
-Next, we perform a similar sweep of $L_p$ which lets us compute $(g_{ds}/I_{D})_n$  and $Avo$. 
+Next, we perform a similar sweep of $L_p$ which lets us compute $(g_{ds}/I_{D})_p$  and $Avo$. 
 
 We search for the largest $L_{p}$ that allows us to still meet the desired $f_T$.
 
