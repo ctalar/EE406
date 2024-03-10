@@ -153,10 +153,10 @@ fprintf("|Av0| = %.2f\n",recap(1));
 fprintf("(gm/ID)_p = %.2f S/A\n",gm_ID2)
 fprintf("(gm/ID)_n = %.2f S/A\n",recap(3));
 fprintf("ID = %.2f uA\n",recap(2));
-fprintf("VG_p = %.4f um\n",VG2)
+fprintf("VG_p = %.4f V\n",VG2)
 fprintf("L_p = %.2f um\n",0.5)
 fprintf("W_p = %.2f um\n",recap(6))
-fprintf("VG_n = %.4f um\n",VG1)
+fprintf("VG_n = %.4f V\n",VG1)
 fprintf("L_n = %.2f um\n",recap(4))
 fprintf("W_n = %.2f um\n",recap(5))
 fprintf("-------------------------------------\n")
@@ -172,27 +172,27 @@ fprintf("-------------------------------------\n")
    <img src="./img/CS_ex3_8_c.png" width="600" >
 </p>
 <p align="center">
-<b>Figure 3.25 (b) </b> Drain current $I_D$ and maximum gain $|A_{V0}|_{max}$ vs. gate length of the p-channel load $L_p$ <br>
+<b>Figure 3.25 (b) </b> Drain current $I_D$ and maximum gain $|A_{V0}|_{max}$ vs. gate length $L_p$ the p-channel load. <br>
 
 ---
 
-To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the self-loading increases with larger $L_n$ , a larger $gm_n$ is needed to maintain the desired unity gain frequency $f_u$. 
+To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the self-loading increases with larger $L_p$ , a larger $gm_n$ is needed to maintain the desired unity gain frequency $f_u$. 
 
 **Fig. 3.25a** and **Fig. 3.25b** show that there is no reason to push $L_p$ beyond 0.5 $\mu m$ since the gain doesn't increase appreciably but the width of the load transistor $W_p$ grows rapidly and so does the drain current $I_D$.
 
 ---
 
-#### Results
+#### Summary of design parameters
 
-|Av0| = 17.39 <br>
-(gm/ID)_p = 10.00 S/A <br>
-(gm/ID)_n = 9.25 S/A <br>
-ID = 891.49 uA <br>
-VG_p = 0.5735 um <br>
-L_p = 0.50 um <br>
-W_p = 343.04 um <br>
-VG_n = 0.6134 um <br>
-L_n = 0.29 um <br>
-W_n = 47.59 um <br>
+``|Av0| = 17.39 ``<br>
+``(gm/ID)_p = 10.00 S/A ``<br>
+``(gm/ID)_n = 9.25 S/A ``<br>
+``ID = 891.49 uA ``<br>
+``VG_p = 0.5735 V ``<br>
+``L_p = 0.50 um ``<br>
+``W_p = 343.04 um ``<br>
+``VG_n = 0.6134 V ``<br>
+``L_n = 0.29 um ``<br>
+``W_n = 47.59 um ``<br>
 
 
