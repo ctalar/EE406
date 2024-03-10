@@ -212,15 +212,21 @@ To first order $I_D$ is fixed by the n-channel transistor $M_n$. However, as the
 ``VG_n = 0.4998 V `` <br>
 ``V_OUT = 0.5351 V`` <br>
 
-#### Comparing the design and the simulation - option 2
+#### Comparing the design and the simulation
+
 <p align="left">
 % Error = $\dfrac{True \; value-Expected \;value}{True \;value}$ $\times 100$
 </p>
 
-% Error on $V_{OUT}$ : 100*(0.5351 - 0.6)/0.5351 = % <br>
-% Error on $A_{vo}$ : 100*(16.87-17.39)/16.87 = % <br>
-% Error on $g_{m}/I_{D}_n$ : 100*(9.16-9.25)/9.16 % <br>
-% Error on $g_{m}/I_{D}_p$ :  100*(9.96-10)/9.96 = % <br>
+% Error on $V_{OUT}$ : 100*(0.5351 - 0.6)/0.5351 = -12.13 %
+
+% Error on $A_{vo}$ : 100*(16.87-17.39)/16.87 = -3.08 %
+
+% Error on $(g_{m}/I_{D})_n$ : 100*(9.16-9.25)/9.16 = -0.98 %
+
+% Error on $(g_{m}/I_{D})_p$ : 100*(9.96-10)/9.96 = -0.40 %
+
+% Error on $I_{D}$ : 100*(905.6-891.49)/905.6 = -1.56 %
 
 <br>*The design using the LUTs is right on target!*
 <p align="left">
