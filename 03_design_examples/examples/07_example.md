@@ -116,6 +116,46 @@ save('ex3_9_spice.mat', 'data');
 ```
 #### comparing the large signal characteristic computed with Matlab and the simulation ( CS_ex3_9.m - part 2)
 ```
+% ================== PART 2 ===============================
+
+VDS1 = .05: .01: 1.15;
+ID2 = Wp*look_up(pch,'ID_W','VGS',VGS2,'VDS',VDD-VDS1,'L',L2);
+ID1 = Wn*look_up( nch,'ID_W','VGS',nch.VGS,'VDS',VDS1,'L',L1)';
+for m = 1:length(VDS1),
+ 	 UGS1(:,m) = interp1(ID1(m,:),nch.VGS,ID2(m),'pchip');
+end
+ 
+% plot ===
+UGS1o = interp1(VDS1,UGS1,VDD/2) % value of UGS1 for which VOUT = VDD/2
+h = figure(1);
+plot(UGS1,VDS1,'color', 0.7*[1 1 1], 'linewidth',4); 
+hold on;
+plot(UGS1o,VDD/2,'ko');
+xlabel('{\itv_I_N}   (V)','FontSize',12);
+ylabel('{\itv_O_U_T}   (V)','FontSize',12);
+ 
+% Add Spice simulation results
+load('ex3_9_spice.mat')
+plot(data.vin_spice, data.vout_spice,'r')
+
+% mark output swing
+V_high = VDD - 2/gm_ID2;
+V_low  = 2/gm_id1;
+str = ['\it V_D_D ' char(8211) ' V_D_s_a_t_2 '];
+yline(V_high,'color', 'k', 'linestyle', '--','Label',str,'FontSize',12);
+yline(V_low,'color', 'k', 'linestyle', '--', 'Label',...
+    'V_D_s_a_t_1','FontSize',12);
+
+text(0.52, 0.6,['(', num2str(UGS1o,'%.4f'),' V, 0.6 V)'], 'fontsize',12)
+
+legend('Matlab', 'OP point', 'Spice','location','best','fontsize',12)
+
+% ===== for fun derive gain also from d(VDS1)/d(UGS1) =====
+A = diff(VDS1)./diff(UGS1);
+% compute the gain as follows:
+% return the value of A for which the mid point of the segments 
+% approximating VOUT is 0.6
+gain = interp1((VDS1(1:end-1)+VDS1(2:end))/2,A,.6)
 ```
 
 <p align="center">
