@@ -88,3 +88,8 @@ Cdd
 `` VG2 = 0.6671 V `` <br>
 `` fu = 0.99942 GHz `` <br>
 `` Cdd = 0.31186 pF `` <br>
+
+#### Xschem/NGspice simulation setup to verify the design (CS_ex3_9.sch)
+<p align="center">
+   <img src="./img/CS_ex3_9_sch.png" width="1000" >
+</p>
