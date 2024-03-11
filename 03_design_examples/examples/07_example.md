@@ -117,3 +117,9 @@ save('ex3_9_spice.mat', 'data');
 #### comparing the large signal characteristic computed with Matlab and the simulation ( CS_ex3_9.m - part 2)
 ```
 ```
+
+<p align="center">
+   <img src="./img/CS_ex3_9.png" width="600" >
+</p>
+<p align="center">
+<b>Figure 3.26 </b> DC transfer characteristic of CS stage with active p-channel load <br>
