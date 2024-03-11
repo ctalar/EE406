@@ -4,7 +4,7 @@ The DC transfer characteristic ($v_{OUT}$ vs. $v_{IN}$) allows to assess the ava
 
 ---
 
-#### matlab's design script (CS_ex3_9.m)
+#### matlab's design script (CS_ex3_9.m - part 1)
 ```
 % File: cs_ex3_9.m
 % source: Jesper and Murmann textbook
