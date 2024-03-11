@@ -114,3 +114,6 @@ data = s
 
 save('ex3_9_spice.mat', 'data');
 ```
+#### comparing the large signal characteristic computed with Matlab and the simulation ( CS_ex3_9.m - part 2)
+```
+```
