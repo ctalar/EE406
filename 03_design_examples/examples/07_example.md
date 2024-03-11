@@ -74,3 +74,17 @@ VG2 = VDD - VGS2
 fu = gm/(2*pi*(CL+Cdd))
 Cdd
 ```
+
+#### Summary of design parameters
+`` |Avo| = 17.39 `` <br>
+`` L1 = 0.29 um `` <br>
+`` Wn = 47.55 um `` <br>
+`` L2 = 0.50 um `` <br>
+`` Wp = 342.78 um `` <br>
+`` ID = 890.82 uA `` <br>
+`` gm_id1 = 9.25 S/A `` <br>
+`` gm_ID2 = 10 S/A `` <br>
+`` VGS1 = 0.4955 V `` <br>
+`` VG2 = 0.6671 V `` <br>
+`` fu = 0.99942 GHz `` <br>
+`` Cdd = 0.31186 pF `` <br>
