@@ -2,6 +2,8 @@
 
 The DC transfer characteristic ($v_{OUT}$ vs. $v_{IN}$) allows to assess the available output voltage swing.
 
+---
+
 #### matlab's design script (CS_ex3_9.m)
 ```
 % File: cs_ex3_9.m
