@@ -93,3 +93,24 @@ Cdd
 <p align="center">
    <img src="./img/CS_ex3_9_sch.png" width="1000" >
 </p>
+
+#### matlab's script to import and save the simulation data as a .mat file (save_as_mat_CS_ex3_9.m)
+```
+clearvars;
+close all;
+
+t = readtable('./simulations/cs_ex3_9_dc_sweep.txt');
+a = table2array(t);
+
+% column vectors from ngspice
+% 1. v-sweep
+% 2. v(gn)
+% 3. v(out)
+
+s.vin_spice = a(:,2);
+s.vout_spice = a(:,3);
+
+data = s
+
+save('ex3_9_spice.mat', 'data');
+```
