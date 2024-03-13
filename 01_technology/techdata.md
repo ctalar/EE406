@@ -1,5 +1,4 @@
-Source: B. Murmann
-
+Source: [B. Murmann's github](https://github.com/bmurmann/EE628/tree/main/4_Technology)
 <p align="center">
    <img src="./img/gm_ID-VGS.png" width="800" />
 </p>
