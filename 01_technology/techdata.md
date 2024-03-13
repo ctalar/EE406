@@ -29,6 +29,8 @@ The above NMOS plot has an odd-looking curvature at the transition between stron
    <img src="./img/JD-gm_ID-for-VDS.png" width="800" />
 </p>
 
+The above plot shows that the dependency of the current density $I_D/W$ on $V_{DS}$ is weak. Typically it is ok to work with data generated at $V_{DD}/2$.
+
 <p align="center">
    <img src="./img/JD-VDS.png" width="800" />
 </p>
