@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./img/gm_ID-VGS.png" width="600" />
+   <img src="./img/gm_ID-VGS.png" width="800" />
 </p>
 
 <p align="center">
