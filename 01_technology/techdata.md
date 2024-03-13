@@ -3,7 +3,7 @@ Source: [B. Murmann's github](https://github.com/bmurmann/EE628/tree/main/4_Tech
    <img src="./img/gm_ID-VGS.png" width="800" />
 </p>
 
-In the above plot, $f_T=(1/2\pi) \cdot g_m/C_{GG}$, where $C_{GG} = cgg+cgsol+cgdol$. The lower case variables are capacitances reported by NGspice.
+In the above plot, $f_T=(1/2\pi) \cdot g_m/C_{GG}$, where $C_{GG} = cgg+cgsol+cgdol$. The lower case variables are the capacitances reported by NGspice.
 
 <p align="center">
    <img src="./img/gm_IDfT-gm_ID.png" width="800" />
@@ -34,3 +34,20 @@ The above plot shows that the dependency of the current density $I_D/W$ on $V_{D
 <p align="center">
    <img src="./img/JD-VDS.png" width="800" />
 </p>
+
+---
+
+<p align="center">
+   <img src="./img/Cdd_W-VDS.png" width="800" />
+</p>
+
+In the above plot, $C_{DD} = cdd+cgdol+cjd$. The lower case variables are the capacitances reported by NGspice.
+
+<p align="center">
+   <img src="./img/Cdd_Cgg_and_Cgd_Cgg-VDS.png" width="800" />
+</p>
+
+In the above plot, $C_{DD} = cdd+cgdol+cjd$,  $C_{GG} = cgg + cgdol + cgsol$ and $C_{GD} = cgd = cgdol$.
+The lower-case variables are the capacitances reported by NGspice.
+
+**NOTE:** for $V_{DS} > 0.2V$ the ratios don't vary much.
