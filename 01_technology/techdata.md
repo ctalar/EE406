@@ -52,7 +52,7 @@ The lower-case variables are the capacitances reported by NGspice.
 
 **NOTE:** for $V_{DS} > 0.2V$ the ratios of the capacitances don't vary much.
 
-At $V_{DS}=0.6V$ <br>
-$(C_{DD}/C_{GG})n$ = 0.5789 and $(C_{DD}/C_{GG})p$ = 0.5582<br>
-$(C_{GD}/C_{GG})n$ = 0.3762 and $(C_{GD}/C_{GG})p$ = 0.3394
+At $V_{DS}=0.6V$: <br>
+$(C_{DD}/C_{GG})n = 0.5789$ and $(C_{DD}/C_{GG})p = 0.5582$<br>
+$(C_{GD}/C_{GG})n = 0.3762$ and $(C_{GD}/C_{GG})p = 0.3394$
 
