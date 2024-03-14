@@ -247,3 +247,5 @@ $C_{GB} = cgb$ ($= 2.63808e-15 $)
 
 Why are the caps so off ? <br>
 Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?
+Is this a modeling issue related to the number of fingers we use?
+
