@@ -154,10 +154,36 @@ if nz >= 1
 end
 ```
 
-`TF extracted using matlab's system identification toolbox on the simulation data`<br>
+*spice AC simulation results:* <br> 
+`gain: 11.734 dB (3.861 V/V)` <br> 
+`bw: 98.175 MHz` <br>
+
+*TF extracted using matlab's system identification toolbox on the simulation data:* <br>
 `The T.F. has 2 pole(s) and 1 zero(s)`<br>
 `The pole is at P(1): -7.3033 + 0.0000j (GHz)`<br>
 `The pole is at P(2): -0.0983 + 0.0000j (GHz)`<br>
 `The zero is at Z(1): 29.1969 + 0.0000j (GHz)`<br> 
+
+*spice OP simulation results:*  <br>
+`ids          0.0003508`<br>
+`vgs          0.504422`<br>
+`vds          0.603622`<br>
+`gm           0.00518857`<br>
+`gds          0.000343894`<br>
+`cdd          2.50941e-17`<br>
+`cgg          1.4316e-14`<br>
+`cgs          1.16759e-14`<br>
+`cgd          2.07484e-18`<br>
+`cgb          2.63808e-15`<br>
+`cdg          4.10618e-15`<br>
+`cgsol        2.58954e-14`<br>
+`cgdol        2.41772e-14`<br>
+`cjd          1.00247e-14`<br>
+`cds         -4.51764e-15`<br>
+`cdb          4.36558e-16`<br>
+`v(tail)      2.455776e-01`<br>
+
+
+
 
 #### Comparing the design results and SPICE
