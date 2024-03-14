@@ -13,3 +13,4 @@ The examples are "adapted" to use the [IHP sg13g2 open-source PDK](https://githu
 | pp. 79-82      | [05](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/05_example.md) | sizing in weak inversion |
 | 3.8 pp. 95-98  | [06](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/06_example.md) | sizing a CS stage with active load |
 | 3.9 pp. 98-99  | [07](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/07_example.md) | large signal characteristic of CS stage with active load |
+| 3.13 pp. 111-113  | [08](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/08_example.md) | Differential Pair with Resistive input Drivers and Resistive Loads |
