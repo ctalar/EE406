@@ -69,4 +69,18 @@ fprintf('fp2    = %.2f (GHz)\n',fp2*1e-9)
 fprintf('fT     = %.2f (GHz)\n', 1e-9*gm/Cgg/2/pi)
 ```
 
-
+#### Summary of the design results
+`gm     = 5.26e-03 (S)`<br>
+`gm_gds = 16.68`<br>
+`gds    = 3.15e-04 (S)`<br>
+`ID     = 3.5077e-04 (A)`<br>
+`IT     = 7.0155e-04 (A)`<br>
+`W      = 58.11 (um)`<br>
+`CGS    = 48.34 (fF)`<br>
+`CGD    = 34.74 (fF)`<br>
+`CDD    = 53.80 (fF)`<br>
+`CDB    = 19.06 (fF)`<br>
+`CLtot  = 69.06 (fF)`<br>
+`fp1    = 68.47 (MHz)`<br>
+`fp2    = 4.99 (GHz)`<br>
+`fT     = 9.74 (GHz)`<br>
