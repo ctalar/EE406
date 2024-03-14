@@ -89,9 +89,16 @@ fprintf('fT     = %.2f (GHz)\n', 1e-9*gm/Cgg/2/pi)
 
 #### Xschem/NGspice simulation setup to verify the design (ex3_13.sch, balun.sch, balun.sym)
 <p align="center">
-   <img src="./img/ex3_13_sch.png" width="1000" >
+   <img src="./img/ex3_13_sch.png" width="900" >
 </p>
 
+<p align="center">
+   <img src="./img/balun_sch.png" width="400" >
+</p>
+
+<p align="center">
+   <img src="./img/balun_sym.png" width="400" >
+</p>
 
 #### Post-processing the simulation results (ex3_13_sim.m)
 ```
@@ -213,8 +220,6 @@ $C_{GS} = cgs + cgsol$ ($= 1.16759e-14 + 2.58954e-14 = 3.7571e-14$)
 $C_{GD} = cgd + cgdol$ $= 2.07484e-18 + 2.41772e-14 = 2.4179e-14$)
 
 $C_{GB} = cgb$ ($= 2.63808e-15 $)
-
-
 
 
 #### Comparing the design results and SPICE
