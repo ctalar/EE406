@@ -189,7 +189,23 @@ end
 `v(tail)      2.455776e-01`<br>
 
 *PSP OP accessible quantities* <br>
-$cdd = cds + cdb + c \mathbf{d} g$ <br>
+
+$cdd = cds + cdb + c \mathbf{d} g$ ($= -4.51764e-15 + 4.36558e-16 + 4.10618e-15 =  2.5098e-17$)
+
+$cgg = cgs + cgd + cgb$ ($= 1.16759e-14 + 2.07484e-18 + 2.63808e-15 = 1.4316e-14$)
+
+*SPICE values according to LUT's definitions:*
+
+$C_{DD} = cdd + cgdol + cjd$ ($=2.50941e-17 + 2.41772e-14 + 1.00247e-14=3.4227e-14$)
+
+$C_{GG} = cgg + cgsol + cgdol$  ($=1.4316e-14 + 2.58954e-14 + 2.41772e-14=6.4389e-14$)
+
+$C_{GS} = cgs + cgsol$ ($= = $)
+
+$C_{GD} = cgd + cgdol$ $= = $)
+
+$C_{GS} = cgs + cgsol$ $= = $)
+
 
 
 
