@@ -223,3 +223,21 @@ $C_{GB} = cgb$ ($= 2.63808e-15 $)
 
 
 #### Comparing the design results and SPICE
+
+| Parameter | Design Value  | SPICE  | Comments  |
+|---|---|---|---|
+| Av0 |4 | 3.86 | ok |
+| gm | 5.26e-03 | 5.19e-3 ok  | 
+| gm_gds | 16.68 | - | ok  |
+| gds    | 3.15e-04 |3.44e-4| ok | 
+| ID     | 3.5077e-04 | | |
+| W      | 58.11 | | |
+| CGS    | 48.34 (fF) | | |
+| CGD    | 34.74 (fF) | | |
+| CDD    | 53.80 (fF) | | |
+| CDB    | 19.06 (fF) | | |
+| CLtot  | 69.06 (fF) | | |
+| fp1    | 68.47 (MHz)| | |
+| fp2    | 4.99 (GHz) | | |
+| fT     | 9.74 (GHz) | | |
+
