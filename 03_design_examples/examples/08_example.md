@@ -188,6 +188,8 @@ end
 `cdb          4.36558e-16`<br>
 `v(tail)      2.455776e-01`<br>
 
+*PSP OP accessible quantities* <br>
+$cdd = cds + cdb + c \mathbf{d} g$ <br>
 
 
 
