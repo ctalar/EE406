@@ -85,6 +85,14 @@ fprintf('fT     = %.2f (GHz)\n', 1e-9*gm/Cgg/2/pi)
 `fp2    = 4.99 (GHz)`<br>
 `fT     = 9.74 (GHz)`<br>
 
+---
+
+#### Xschem/NGspice simulation setup to verify the design (ex3_13.sch, balun.sch, balun.sym)
+<p align="center">
+   <img src="./img/ex3_13_sch.png" width="1000" >
+</p>
+
+
 #### Post-processing the simulation results (ex3_13_sim.m)
 ```
 % ex3_13_sim.m
