@@ -47,7 +47,7 @@ In the above plot, $C_{DD} = cdd+cgdol+cjd$. The lower case variables are the ca
    <img src="./img/Cdd_Cgg_and_Cgd_Cgg-VDS.png" width="800" />
 </p>
 
-In the above plot, $C_{DD} = cdd+cgdol+cjd$,  $C_{GG} = cgg + cgdol + cgsol$ and $C_{GD} = cgd = cgdol$.
+In the above plot, $C_{DD} = cdd+cgdol+cjd$,  $C_{GG} = cgg + cgdol + cgsol$ and $C_{GD} = cgd + cgdol$.
 The lower-case variables are the capacitances reported by NGspice.
 
 **NOTE:** for $V_{DS} > 0.2V$ the ratios of the capacitances don't vary much.
