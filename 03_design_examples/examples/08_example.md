@@ -246,6 +246,6 @@ $C_{GB} = cgb$ ($= 2.63808e-15 $)
 | fT     | 9.74 (GHz) | 12.84 (GHz) | gm/CGG/2/pi|
 
 Why are the caps so off ? <br>
-Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?
+Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?<br>
 Is this a modeling issue related to the number of fingers we use?
 
