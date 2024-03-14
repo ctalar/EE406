@@ -235,9 +235,11 @@ $C_{GB} = cgb$ ($= 2.63808e-15 $)
 | CGS    | 48.34 (fF) | 37.57 (fF) | ? |
 | CGD    | 34.74 (fF) | 24.18 (fF) |  ? |
 | CDD    | 53.80 (fF) | 34.23 (fF) | ? | 
-| CDB    | 19.06 (fF) | 10.05 (fF) | ? CDB = CDD - CGD |
-| CLtot  | 69.06 (fF) | | |
-| fp1    | 68.47 (MHz)| | |
-| fp2    | 4.99 (GHz) | | |
-| fT     | 9.74 (GHz) | | |
+| CDB    | 19.06 (fF) | 10.05 (fF) | CDB = CDD - CGD |
+| CLtot  | 69.06 (fF) | 60.05 (fF) | CL + CDB |
+| fp1    | 68.47 (MHz)| 98.3 (MHz) | ? |
+| fp2    | 4.99 (GHz) |  | |
+| fT     | 9.74 (GHz) | | gm/CGG|
 
+Why are the caps so off ? <br>
+Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?
