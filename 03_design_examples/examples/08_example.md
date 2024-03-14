@@ -153,3 +153,11 @@ if nz >= 1
     end
 end
 ```
+
+`TF extracted using matlab's system identification toolbox on the simulation data`<br>
+`The T.F. has 2 pole(s) and 1 zero(s)`<br>
+`The pole is at P(1): -7.3033 + 0.0000j (GHz)`<br>
+`The pole is at P(2): -0.0983 + 0.0000j (GHz)`<br>
+`The zero is at Z(1): 29.1969 + 0.0000j (GHz)`<br> 
+
+#### Comparing the design results and SPICE
