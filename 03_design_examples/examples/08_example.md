@@ -251,7 +251,25 @@ Is this a modeling issue related to the number of fingers we use?
 
 #### Xschem/NGspice simulation with the transistors having ng=1
 
-`av0                 =  4.119463e+00`<br>
-`f3db                =  6.780677e+07`<br>
-`fu                  =  2.714253e+08`<br>
+`av0       =  4.119463e+00`<br>
+`f3db      =  6.780677e+07`<br>
+`fu        =  2.714253e+08`<br>
+`ids       =  0.0003508`<br>
+`vgs       =  0.454916`<br>
+`vds       =  0.554116`<br>
+`gm        =  0.00546612`<br>
+`gds       =  0.000326898`<br>
+`cdd       =  2.31199e-17`<br>
+`cgg       =  1.42646e-14`<br>
+`cgs       =  1.21601e-14`<br>
+`cgd       = -1.01368e-18`<br>
+`cgb       =  2.10551e-15`<br>
+`cdg       =  4.34826e-15`<br>
+`cgsol     =  3.63988e-14`<br>
+`cgdol     =  3.47868e-14`<br>
+`cjd       =  1.78556e-14`<br>
+`cds       = -4.70973e-15`<br>
+`cdb       =  3.84593e-16`<br>
 
+`fp1 = 68.0 (MHz)`<br>
+`fp2 = 6.67 (GHz)`<br>
