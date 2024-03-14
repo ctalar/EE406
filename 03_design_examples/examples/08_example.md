@@ -154,6 +154,11 @@ if nz >= 1
 end
 ```
 
+<p align="center">
+   <img src="./img/ex3_13.png" width="600" >
+</p>
+<p align="center">
+
 *spice AC simulation results:* <br> 
 `gain: 11.734 dB (3.861 V/V)` <br> 
 `bw: 98.175 MHz` <br>
