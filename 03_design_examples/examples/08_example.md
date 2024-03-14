@@ -249,3 +249,9 @@ Why are the caps so off ? <br>
 Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?<br>
 Is this a modeling issue related to the number of fingers we use?
 
+#### Xschem/NGspice simulation with the transistors having ng=1
+
+`av0                 =  4.119463e+00`<br>
+`f3db                =  6.780677e+07`<br>
+`fu                  =  2.714253e+08`<br>
+
