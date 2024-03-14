@@ -246,7 +246,7 @@ $C_{GB} = cgb$ ($= 2.63808e-15 $)
 | fT     | 9.74 (GHz) | 12.84 (GHz) | gm/CGG/2/pi|
 
 Why are the caps so off ? <br>
-Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match?<br>
+Even if our cap definitions were incorrect since the LUT's values are extracted from SPICE, the SPICE values should match!<br>
 Is this a modeling issue related to the number of fingers we use?
 
 #### Xschem/NGspice simulation with the transistors having ng=1
@@ -273,3 +273,6 @@ Is this a modeling issue related to the number of fingers we use?
 
 `fp1 = 68.0 (MHz)`<br>
 `fp2 = 6.67 (GHz)`<br>
+`fT  = gm/CGG/2/pi = 10.18 (GHz)` <br>
+
+There seems to be an issue related to the modeling of the caps when using $ng \neq 1$ and maybe the definition of $C_{DD}$ has also some issues. 
