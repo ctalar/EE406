@@ -121,7 +121,7 @@ fprintf('\n');
    <img src="../img/cs_basic_ee214_plot.png" width="800" >
 </p>
 
-### Results Summary
+### Summary of simulation results
 gain ~ 4.22 (12.52 dB) <br> 
 bw ~ 1.042 GHz           <br>
 fp1 ~ 1.0425 GHz        <br>
