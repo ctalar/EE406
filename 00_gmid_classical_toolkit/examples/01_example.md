@@ -118,7 +118,7 @@ end
 fprintf('\n');
 ```
 <p align="center">
-   <img src="../img/cs_basic_ee214_plot.png" width="600" >
+   <img src="../img/cs_basic_ee214_plot.png" width="800" >
 </p>
 
 ### Results Summary
