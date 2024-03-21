@@ -117,7 +117,7 @@ fprintf('\n');
 </p>
 
 ### Results Summary
-gain: 4.224 (12.517 dB) <br> 
-bw: 1.042 GHz           <br>
+gain ~ 4.22 (12.52 dB) <br> 
+bw ~1.042 GHz           <br>
 fp1 ~ 1.0425 GHz        <br>
 fz  ~ 127.3806 GHz      <br>
