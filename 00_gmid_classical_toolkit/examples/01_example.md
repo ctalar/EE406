@@ -50,7 +50,7 @@ op
 
 .end
 ```
-### Post processing the NGSpice Simulation Data (cs_basic_ee214_sim.m)
+### Post processing the NGspice Simulation Data (cs_basic_ee214_sim.m)
 ```
 % cs_basic_ee214_sim.m
 
