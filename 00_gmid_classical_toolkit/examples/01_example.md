@@ -76,7 +76,7 @@ title('Common Source Frequency Reponse','fontsize',14)
 xlabel('Frequency [Hz]','fontsize',12);
 ylabel('Magnitude [dB]','fontsize',12);
 axis([1e1 1e12 -30 15]);
-text(1e2, -40, str, 'color', 'b', 'fontSize',14)
+text(1e2, -5, str, 'color', 'b', 'fontSize',14)
 grid;
 print(figure(1), '-dpng', 'cs_basic_ee214_plot.png')
 
@@ -116,4 +116,8 @@ fprintf('\n');
    <img src="../img/cs_basic_ee214_plot.png" width="600" >
 </p>
 
-
+### Results Summary
+gain: 4.224 (12.517 dB) <br> 
+bw: 1.042 GHz           <br>
+fp1 ~ 1.0425 GHz        <br>
+fz  ~ 127.3806 GHz      <br>
