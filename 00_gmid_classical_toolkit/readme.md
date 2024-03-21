@@ -9,3 +9,6 @@ The functions that can read and interpolate the created lookup tables (mat files
 
 | Example  | Link  | Comments  |
 |---|---|---|
+| CS with resistive load and ideal driver | | | 
+| Differential Pair with resistive load and resistive drivers | | |
+
