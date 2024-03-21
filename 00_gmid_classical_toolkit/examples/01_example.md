@@ -1,4 +1,9 @@
 ### NGSpice Deck (cs_basic_ee214.sp)
+
+<p align="center">
+   <img src="../img/cs_basic_ee214_schem.png" width="600" >
+</p>
+
 ```
 * cs_basic_ee214
 * basic cs with resistive load and ideal input driver
