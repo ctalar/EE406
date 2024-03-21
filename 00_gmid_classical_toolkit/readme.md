@@ -9,6 +9,6 @@ The functions that can read and interpolate the created lookup tables (mat files
 
 | Example  | Link  | Comments  |
 |---|---|---|
-| CS with resistive load and ideal driver |[01](https://github.com/claudiotalarico/EE406/blob/main/03_design_examples/examples/01_example.md)| | 
+| CS with resistive load and ideal driver |[01](https://github.com/claudiotalarico/EE406/blob/main/00_gmid_classical_toolkit/examples/01_example.md)| | 
 | Differential Pair with resistive load and resistive drivers | | |
 
