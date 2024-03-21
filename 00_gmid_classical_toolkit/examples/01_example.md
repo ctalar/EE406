@@ -1,4 +1,4 @@
-### NGSpice Deck (cs_basic_ee214.sp)
+### NGspice Deck (cs_basic_ee214.sp)
 
 <p align="center">
    <img src="../img/cs_basic_ee214_sch.png" width="400" >
