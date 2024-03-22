@@ -5,6 +5,10 @@ Systematic Design of Analog CMOS Circuits](https://github.com/bmurmann/Book-on-g
 The .mat files (180nch.mat and 180pch.mat) are based on BSIM3 models of a typical 180-nm CMOS process (ee214_hspice.mod).<br>
 The functions that can read and interpolate the created lookup tables (mat files) are look_up.m and look_upVGS.m.
 
+**NOTE:** 
+Please download the .mat files directly from the textbook's link above.
+The other files (``look_up.m``,``look_upVGS.m`` and ``ee214_hspice.mod``) are available in the src folder. 
+
 ---
 
 ### $g_{m}/I_{D}$ Design Examples
