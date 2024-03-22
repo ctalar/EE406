@@ -47,8 +47,8 @@ let av03db = av0db - 3
 meas ac f3db when vdb(vod)=av03db
 write dpair_basic_ac_ee214.raw v(vod)
 plot vm(vod)
- plot vdb(vod)
- plot {180*vp(vod)/pi}
+plot vdb(vod)
+plot {180*vp(vod)/pi}
 
 op
 print v(tail)
