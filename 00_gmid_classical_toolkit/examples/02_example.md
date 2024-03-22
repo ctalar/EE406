@@ -138,5 +138,13 @@ fprintf('\n');
 ```
 
 <p align="center">
-   <img src="../img/dpair_basic_ee214_plot.png" width="600" >
+   <img src="../img/dpair_basic_ee214_plot.png" width="800" >
 </p>
+
+#### Summary of simulation results
+``gain ~ 3.68 (11.32 dB)`` <br> 
+``bw ~ 213.61 (MHz) ``     <br>
+``fp1 ~ 214.6 (MHz)``   <br>
+``fp2 ~ 4.6815 (GHz)``  <br>
+``fz  ~ 70.5709 (GHz)`` <br>
+
