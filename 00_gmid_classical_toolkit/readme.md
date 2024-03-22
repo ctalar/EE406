@@ -7,7 +7,7 @@ The functions that can read and interpolate the created lookup tables (mat files
 
 **NOTE:** 
 Please download the .mat files directly from the textbook's link above.
-The other files (``look_up.m``,``look_upVGS.m`` and ``ee214_hspice.mod``) are available in the src folder. 
+The other files (``look_up.m``,``look_upVGS.m`` and ``ee214_hspice.mod``) are available in the **src** folder. 
 
 ---
 
