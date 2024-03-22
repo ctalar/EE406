@@ -15,6 +15,6 @@ The other files (``look_up.m``,``look_upVGS.m`` and ``ee214_hspice.mod``) are av
 
 | Example  | Link  | Comments  |
 |---|---|---|
-| CS with resistive load and ideal driver |[01](https://github.com/claudiotalarico/EE406/blob/main/00_gmid_classical_toolkit/examples/01_example.md)| | 
+| Common-Source with resistive load and ideal driver |[01](https://github.com/claudiotalarico/EE406/blob/main/00_gmid_classical_toolkit/examples/01_example.md)| | 
 | Differential Pair with resistive load and resistive drivers | [02](https://github.com/claudiotalarico/EE406/blob/main/00_gmid_classical_toolkit/examples/02_example.md)| |
 
