@@ -11,7 +11,7 @@ The other files (``look_up.m``,``look_upVGS.m`` and ``ee214_hspice.mod``) are av
 
 ---
 
-### $g_{m}/I_{D}$ Design Examples
+### $g_{m}/I_{D}$ Examples
 
 | Example  | Link  | Comments  |
 |---|---|---|
