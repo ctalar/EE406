@@ -68,3 +68,5 @@ print v(tail)
 
 .end
 ```
+
+### Post processing the NGspice Simulation Data (dpair_basic_ee214_sim.m)
