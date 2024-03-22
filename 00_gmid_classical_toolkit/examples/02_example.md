@@ -1,4 +1,4 @@
-#### NGspice Deck (dpair_basic_ee214.sp)
+### NGspice Deck (dpair_basic_ee214.sp)
 
 <p align="center">
    <img src="../img/dpair_basic_ee214_sch.png" width="600" >
@@ -69,7 +69,7 @@ print v(tail)
 .end
 ```
 
-#### Post processing the NGspice Simulation Data (dpair_basic_ee214_sim.m)
+### Post processing the NGspice Simulation Data (dpair_basic_ee214_sim.m)
 ```
 % dpair_basic_ee214_sim.m
 
@@ -141,7 +141,7 @@ fprintf('\n');
    <img src="../img/dpair_basic_ee214_plot.png" width="800" >
 </p>
 
-#### Summary of simulation results
+### Summary of simulation results
 ``gain ~ 3.68 (11.32 dB)`` <br> 
 ``bw ~ 213.61 (MHz) ``     <br>
 ``fp1 ~ 214.6 (MHz)``   <br>
