@@ -136,3 +136,7 @@ if nz >= 1
 end
 fprintf('\n');
 ```
+
+<p align="center">
+   <img src="../img/dpair_basic_ee214_plot.png" width="600" >
+</p>
