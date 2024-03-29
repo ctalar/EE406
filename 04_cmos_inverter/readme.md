@@ -3,7 +3,7 @@
 #### Xschem/NGspice setup
 
 <p align="center">
-   <img src="./img/inverter_sch.png" width="1000" >
+   <img src="./img/inverter_sch.png" width="1100" >
 </p>
 
 #### Post-processing the simulation using python (inverter_sim.py)
