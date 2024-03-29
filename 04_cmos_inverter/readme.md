@@ -78,7 +78,7 @@ steps = LTR.get_steps()
 num_steps = len(steps)
 print('number of sweeps in the simulation:', num_steps)
 
-# objects contaonong the data
+# objects containing the data
 Vo = LTR.get_trace('v(out)')
 Vi = LTR.get_trace('v(in)')
 DVo = LTR.get_trace('v(dvout)')
@@ -190,4 +190,5 @@ plt.annotate('('+str_e+')', xy=(vsw+0.05,vsw+0.05),ha='left', va='top',
 fig3.tight_layout();
 plt.show();
 ```
+
 
