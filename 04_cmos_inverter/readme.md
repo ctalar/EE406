@@ -53,7 +53,9 @@ str_1 = 'rise time (10%% to 90%%) --> t$_{RISE}$ = %.4f ps' % trise
 str_2 = 'fall time (90%% to 10%%) --> t$_{FALL}$ = %.4f ps' % tfall
 str_3 = 'delay time (50%% to 50%%) --> t$_{DELAY}$ = %.4f ps' % tdelay
 
+# Figure 1
 fig1 = plt.figure()
+
 plt.title("IHP sg13g2 CMOS inverter: transient analysis")
 plt.ylabel("voltage (V)")
 plt.xlabel("time (ns)")
@@ -63,6 +65,7 @@ plt.annotate(str_1+'\n'+str_2+'\n'+str_3,
   xy=(2.5,1),ha='left', va='top', color='darkblue', fontsize=10,
   bbox=dict(facecolor='lemonchiffon', edgecolor='black',boxstyle='round,pad=1'))
 plt.legend(bbox_to_anchor=(1, 0.5), loc="center left",frameon=True,fontsize=10)
+
 plt.tight_layout();
 plt.show();
 
@@ -111,7 +114,6 @@ print('Voh: ',round(voh,4), 'V')
 print('Vil: ',round(vil,4), 'V')
 print('Vol: ',round(vol,4), 'V')
 
-
 str_1 = "V$_{SW}$ = %.4f V" %vsw
 str_2 = "V$_{IL}$ = %.4f V" %vil
 str_3 = "V$_{OH}$ = %.4f V" %voh
@@ -129,6 +131,7 @@ str_6 = "The max DC gain is"
 str_7 = "%.2f V/V " % maxgain
 str_8 = "at V$_{IN}$=%.2f V" % VIN
 
+# Figure 2
 fig2 = plt.figure()
 
 plt.subplot(211) # 2 plots - col 1, row 1
@@ -162,7 +165,7 @@ plt.annotate(str_6+'\n'+str_7+'\n'+str_8, xy=(0.8,-4),ha='left', va='top',
 fig2.tight_layout()
 plt.show()
 
-
+# Figure 3
 fig3 = plt.figure()
 
 str_a = "V$_{IL}$=%.2fV" %vil
@@ -187,6 +190,7 @@ plt.annotate('('+str_c+', '+str_d+')', xy=(vih+0.05,vol+0.05),ha='left', va='top
 plt.plot(vsw, vsw, marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="red")
 plt.annotate('('+str_e+')', xy=(vsw+0.05,vsw+0.05),ha='left', va='top',
             color='tab:purple',fontsize=10)
+
 fig3.tight_layout();
 plt.show();
 ```
