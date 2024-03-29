@@ -196,7 +196,7 @@ plt.show();
 ```
 
 <p align="center">
-   <img src="./img/inverter_tran.png" width="600" >
+   <img src="./img/inverter_tran.png" width="700" >
 </p>
 
 <p align="center">
