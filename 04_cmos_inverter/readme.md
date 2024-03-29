@@ -194,6 +194,7 @@ plt.annotate('('+str_e+')', xy=(vsw+0.05,vsw+0.05),ha='left', va='top',
 fig3.tight_layout();
 plt.show();
 ```
+---
 
 <p align="center">
    <img src="./img/inverter_tran.png" width="700" >
@@ -202,6 +203,7 @@ plt.show();
    <b>Figure 1.</b> Inverter's Transient Behavior <br><p align="center">
 </p>
 
+---
 
 <p align="center">
    <img src="./img/inverter_vtc_a.png" width="600" >
@@ -209,6 +211,8 @@ plt.show();
 <p align="center">
    <b>Figure 2.</b> Inverter's DC Transfer Function <br><p align="center">
 </p>
+
+---
 
 <p align="center">
    <img src="./img/inverter_vtc_b.png" width="600" >
