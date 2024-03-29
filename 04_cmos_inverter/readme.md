@@ -195,4 +195,15 @@ fig3.tight_layout();
 plt.show();
 ```
 
+<p align="center">
+   <img src="./img/inverter_tran.png" width="600" >
+</p>
+
+<p align="center">
+   <img src="./img/inverter_vtc_a.png" width="600" >
+</p>
+
+<p align="center">
+   <img src="./img/inverter_vtc_b.png" width="600" >
+</p>
 
