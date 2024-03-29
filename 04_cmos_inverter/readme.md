@@ -218,5 +218,5 @@ plt.show();
    <img src="./img/inverter_vtc_b.png" width="600" >
 </p>
 <p align="center">
-   <b>Figure 3.</b> Inverter's DC Transfer Function <br><p align="center">
+   <b>Figure 3.</b> Inverter's DC Transfer Function and its derivative<br><p align="center">
 </p>
