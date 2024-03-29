@@ -198,9 +198,10 @@ plt.show();
 <p align="center">
    <img src="./img/inverter_tran.png" width="700" >
 </p>
-<p align="center">
+
 <b>Figure 1.</b> Inverter Transient Behavior <br><p align="center">
-   
+
+<p align="center">
    <img src="./img/inverter_vtc_a.png" width="600" >
 </p>
 
