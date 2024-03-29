@@ -199,7 +199,7 @@ plt.show();
    <img src="./img/inverter_tran.png" width="700" >
 </p>
 <p align="center">
-   <b>Figure 1.</b> Inverter Transient Behavior <br><p align="center">
+   <b>Figure 1.</b> Inverter's Transient Behavior <br><p align="center">
 </p>
 
 
@@ -207,12 +207,12 @@ plt.show();
    <img src="./img/inverter_vtc_a.png" width="600" >
 </p>
 <p align="center">
-   <b>Figure 2.</b> Inverter Transfer Function <br><p align="center">
+   <b>Figure 2.</b> Inverter's DC Transfer Function <br><p align="center">
 </p>
 
 <p align="center">
    <img src="./img/inverter_vtc_b.png" width="600" >
 </p>
 <p align="center">
-   <b>Figure 3.</b> Inverter Transfer Function <br><p align="center">
+   <b>Figure 3.</b> Inverter's DC Transfer Function <br><p align="center">
 </p>
