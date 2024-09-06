@@ -69,7 +69,19 @@ If you are curious to see what version of the iic osic tools you are running use
     `docker pull hpretl/iic-osic-tools:latest` <br>
     and restart the container using the script:<br>
     `./start_x.sh`
-    
+
+13. Following are few CLI docker commands that may come handy:<br>
+    ```
+    docker ps -a
+    docker ps -a --no-trunc
+    docker stop <CONTAINER_ID>
+    docker rm <CONTAINER_ID>
+    docker images
+    docker rmi <IMAGE_ID>
+    docker inspect <IMAGE_ID>
+    ```
+    [Look at the docker documentation for more info](https://docs.docker.com/reference/)    
+
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
 2. Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
