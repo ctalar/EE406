@@ -42,8 +42,11 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
    ```
 
 9. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
-This is your working directory where all your design data goes.
-10. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
+This is your working directory where all your design data goes.<br>
+If you are curious to see what version of the iic osic tools you are running use the command: <br>
+`echo $IIC_OSIC_TOOLS_VERSION`
+
+11. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
     The available PDKs are:<br>
     ```
     gf180mcuC
