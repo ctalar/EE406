@@ -68,15 +68,17 @@ If you are curious to see what version of the iic osic tools you are running use
 12. If you have been using the iic osic tools for a while and all you want to do is to update to the newest version, pull the image with tag latest:<br>
     `docker pull hpretl/iic-osic-tools:latest` <br>
     and restart the container using the script:<br>
-    `./start_x.sh`
+    `start_x.sh`<br>
 
-13. Following are few CLI docker commands that may come handy:<br>
+    Finally, don't forget to stop and remove containers that have become useless. Make sure to remove also useless images.
+
+14. Following are a few CLI docker commands that may come handy:<br>
     ```
     docker ps -a
     docker ps -a --no-trunc
     docker stop <CONTAINER_ID>
     docker rm <CONTAINER_ID>
-    docker images
+    docker images -a
     docker rmi <IMAGE_ID>
     docker inspect <IMAGE_ID>
     ```
