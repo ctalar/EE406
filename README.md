@@ -27,7 +27,7 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
 *Example*<br>
 `DESIGNS="/mnt/g/My Drive/eda/designs"`<br>
 or alternatively create a link:<br>
-`ln -s /mnt/g/My\ Drive/ghome`<br>
+`ln -s /mnt/g/My\ Drive/ ghome`<br>
 and then define the variable `DESIGNS` as follows:<br>
 `DESIGNS=$HOME/ghome/eda/designs` <br><br>
 If needed change also the variable `DISPLAY`<br>
