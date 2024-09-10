@@ -30,7 +30,7 @@ or alternatively create a link:<br>
 `ln -s /mnt/g/My\ Drive/ ghome`<br>
 and then define the variable `DESIGNS` as follows:<br>
 `DESIGNS=$HOME/ghome/eda/designs` <br><br>
-If needed change also the variable `DISPLAY`<br>
+If needed set also the variable `DISPLAY`<br>
 *Example*<br>
 `PARAMS="${PARAMS} -e DISPLAY=host.docker.internal:0"`
 
