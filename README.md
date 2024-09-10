@@ -82,8 +82,11 @@ If you are curious to see what version of the iic osic tools you are running use
     docker rmi <IMAGE_ID>
     docker inspect <IMAGE_ID>
     ```
-    [Look at the docker documentation for more info](https://docs.docker.com/reference/)    
+    [Look at the docker documentation for more info](https://docs.docker.com/reference/)
 
+15. Further help on setting up open source tools with Docker<br>
+    If you need further help here is a [link](https://kwantaekim.github.io/2024/05/25/OSE-Docker/) to a step-by-step tutorial by Kwantae Kim
+    
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
 2. Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
