@@ -32,7 +32,7 @@ and then define the variable `DESIGNS` as follows:<br>
 `DESIGNS=$HOME/ghome/eda/designs` <br><br>
 If needed change also the variable `DISPLAY`<br>
 *Example*<br>
-`PARAMS=${PARAMS} -e DISPLAY=host.docker.internal:0`
+`PARAMS="${PARAMS} -e DISPLAY=host.docker.internal:0"`
 
 9. In the unfortunate event that .Xauthority does not exist in the user home directory, it will show the below error:<br>
    ```
