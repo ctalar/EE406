@@ -19,14 +19,22 @@ In Unix, the Windows user's folder is accessible as:
 `/mnt/c/Users/claudio`<br>
 5. Start Docker Desktop
 6. Browse to the iic-osic-tools directory<br>
-`cd /mnt/c/Users/claudio/iic-osic-tools`<be>
+`cd /mnt/c/Users/claudio/iic-osic-tools`<br>
 7. Start the container using the script `./start_x.sh`<br>
 **NOTE:** in the script, all user data is persistently mounted in the directory pointed to by the environment variable `DESIGNS` <br>
 The default is `$HOME/eda/designs`<br>
-To change where the user data is mounted edit the `./start_x.sh` script and modify the definition of the variable `DESIGNS`<br>
+To change where the user data is mounted edit the `./start_x.sh` script and modify the definition of the variable `DESIGNS`<br><br>
 *Example*<br>
-`DESIGNS="/mnt/g/My Drive/eda/designs"`
-8. In the unfortunate event that .Xauthority does not exist in the user home directory, it will show the below error:<br>
+`DESIGNS="/mnt/g/My Drive/eda/designs"`<br>
+or alternatively create a link:<br>
+`ln -s /mnt/g/My\ Drive/ghome`<br>
+and then define the variable `DESIGNS` as follows:<br>
+`DESIGNS=$HOME/ghome/eda/designs` <br><br>
+If needed change also the variable `DISPLAY`<br>
+*Example*<br>
+`PARAMS=${PARAMS} -e DISPLAY=host.docker.internal:0`
+
+9. In the unfortunate event that .Xauthority does not exist in the user home directory, it will show the below error:<br>
    ```
    xauth
    xauth:  file /root/.Xauthority does not exist
@@ -41,7 +49,7 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
    xauth list
    ```
 
-9. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >` <br>
+10. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >` <br>
 This is your working directory where all your design data goes.<br>
 If you are curious to see what version of the iic osic tools you are running use the command: <br>
 `echo $IIC_OSIC_TOOLS_VERSION`
@@ -70,7 +78,7 @@ If you are curious to see what version of the iic osic tools you are running use
     and restart the container using the script:<br>
     `start_x.sh`<br>
 
-    Finally, don't forget to stop and remove containers that have become useless. Make sure to remove also useless images.
+    Don't forget to stop and remove containers that have become useless, and to remove images that have become useless.
 
 14. Following are a few CLI docker commands that may come handy:<br>
     ```
